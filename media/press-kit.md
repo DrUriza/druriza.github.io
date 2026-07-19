@@ -19,7 +19,11 @@ TradElatin VR1 is a structured platform that processes market data through stage
 The platform stack includes Python, FastAPI, React, Docker, REST APIs, JSON contracts, machine learning workflows, and high-performance analytics methods for time series and signal-oriented processing.
 
 ## Contact
-Official contact channels will be published soon.
+- Email: `contact@tradelatinvr1.example`
+- Press: `press@tradelatinvr1.example`
+- Partnerships: `partners@tradelatinvr1.example`
 
 ## Social Media
+- X / Twitter: `https://x.com/tradelatinvr1`
+- LinkedIn: `https://www.linkedin.com/company/tradelatinvr1`
 - GitHub: `https://github.com/DrUriza`
