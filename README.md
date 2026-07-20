@@ -1,6 +1,8 @@
 # TradElatin VR1
 
-<img src="assets/logo/elatin-logo.png" alt="ELATIN logo" height="70">
+<p align="center">
+  <img src="assets/logo/elatin-logo.png" alt="ELATIN company logo" width="320">
+</p>
 
 ## AI-Powered Market Intelligence Platform
 
