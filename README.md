@@ -1,5 +1,7 @@
 # TradElatin VR1
 
+<img src="assets/logo/elatin-logo.png" alt="ELATIN logo" height="70">
+
 ## AI-Powered Market Intelligence Platform
 
 TradElatin VR1 is an advanced market intelligence platform designed to transform large-scale financial market data into actionable insights through artificial intelligence, signal processing, mathematical modeling, and real-time visualization.
