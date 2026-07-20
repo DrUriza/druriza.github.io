@@ -21,5 +21,10 @@ The platform stack includes Python, FastAPI, React, Docker, REST APIs, JSON cont
 ## Contact
 Official contact channels will be published soon.
 
+## Official Logo
+The official ELATIN logo is available at: `assets/logo/elatin-logo.png`
+
+![ELATIN logo](../assets/logo/elatin-logo.png)
+
 ## Official Profile
 - GitHub: https://github.com/DrUriza
