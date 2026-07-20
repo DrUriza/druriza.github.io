@@ -57,6 +57,14 @@
       font-size: 1.15rem;
     }
 
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+
     .nav-logo {
       max-height: 70px;
       width: auto;
@@ -153,9 +161,9 @@
   <header>
     <div class="container">
       <nav>
-        <a href="/" aria-label="ELATIN home" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;">
+        <a href="/" class="nav-brand" aria-label="ELATIN home">
           <img src="assets/logo/elatin-logo.png" alt="ELATIN company logo" class="nav-logo">
-          <strong>TradElatin VR1</strong>
+          <strong aria-hidden="true">TradElatin VR1</strong>
         </a>
         <div>
           <a href="#platform">Platform</a>
