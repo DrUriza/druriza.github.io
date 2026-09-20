@@ -1,4 +1,4 @@
-# TradElatin VR1
+# TradElatin VR
 
 <img src="assets/logo/elatin-logo.png" alt="ELATIN logo" height="70">
 
