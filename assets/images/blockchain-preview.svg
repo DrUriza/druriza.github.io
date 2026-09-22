@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract blockchain financial observability preview</title>
+  <desc id="desc">A neutral network of blocks and connected data nodes on a dark grid.</desc>
+  <rect width="640" height="360" fill="#0a1727"/>
+  <g stroke="#18324b" stroke-width="1" opacity=".65"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <g fill="none" stroke="#6f8cff" stroke-width="3" opacity=".75"><path d="M96 224L208 126 320 196 432 92 544 174"/><path d="M208 126L432 92M320 196L544 174" opacity=".4"/></g>
+  <g fill="#102b3e" stroke="#50a7ff" stroke-width="3"><rect x="68" y="196" width="56" height="56" rx="8"/><rect x="180" y="98" width="56" height="56" rx="8"/><rect x="292" y="168" width="56" height="56" rx="8"/><rect x="404" y="64" width="56" height="56" rx="8"/><rect x="516" y="146" width="56" height="56" rx="8"/></g>
+  <g fill="#6f8cff"><circle cx="96" cy="224" r="6"/><circle cx="208" cy="126" r="6"/><circle cx="320" cy="196" r="6"/><circle cx="432" cy="92" r="6"/><circle cx="544" cy="174" r="6"/></g>
+</svg>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Architecture of TradELATIN VR1 and the staged TradELATIN research and engineering program.">
+  <title>Architecture | TradELATIN</title>
+  <link rel="icon" type="image/png" href="assets/logo/elatin-logo.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body id="architecture-page">
+  <header>
+    <div class="container">
+      <nav aria-label="Primary navigation">
+        <a href="index.html#top" aria-label="TradELATIN home"><img src="assets/logo/elatin-logo.png" alt="TradELATIN logo" class="nav-logo"></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="sr-only">Toggle navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+        <div id="site-menu" class="site-menu">
+          <a href="index.html#top">Home</a><a href="index.html#vr1">VR1</a><a href="index.html#vr2">VR2</a><a href="index.html#vr3">VR3</a><a href="index.html#vr4">VR4</a><a href="index.html#architecture" aria-current="page">Architecture</a><a href="index.html#blockchain-networks">Blockchain Networks</a><a href="index.html#roadmap">Roadmap</a><a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero architecture-hero">
+      <div class="container">
+        <div class="eyebrow">TradELATIN system design</div>
+        <h1>Architecture built around explicit boundaries.</h1>
+        <p>TradELATIN separates acquisition, processing, and human-facing representation while preserving reproducibility through versioned contracts, validation, and controlled integration.</p>
+      </div>
+    </section>
+
+    <section id="vr1-architecture" class="section-panel">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">Operational foundation</div><h2>VR1 architecture</h2></div><p class="muted">The operational VR1 system follows a three-layer flow. Each layer has a distinct responsibility and communicates through structured interfaces.</p></div>
+        <div class="architecture-map architecture-map-large" aria-label="Acquisition, then Processing, then Representation and HMI"><span><small>Layer 01</small>Acquisition</span><i aria-hidden="true"></i><span><small>Layer 02</small>Processing</span><i aria-hidden="true"></i><span><small>Layer 03</small>Representation / HMI</span></div>
+        <div class="layer-details">
+          <article class="card"><span>01</span><h3>Acquisition</h3><p>Collects heterogeneous observations from controlled external data endpoints and market-data providers.</p></article>
+          <article class="card"><span>02</span><h3>Processing</h3><p>Validates, normalizes, and transforms observations into structured information suitable for downstream use.</p></article>
+          <article class="card"><span>03</span><h3>Representation / HMI</h3><p>Presents structured observations through interactive, human-facing views without adding predictive or execution claims.</p></article>
+        </div>
+        <p class="boundary-statement">VR1 observes markets. It does not predict prices, generate trading signals, or execute trades.</p>
+      </div>
+    </section>
+
+    <section id="foundations">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">Cross-layer foundations</div><h2>Shared operational foundations</h2></div><p class="muted">These capabilities connect and support the three VR1 layers without collapsing their responsibilities.</p></div>
+        <div class="foundation-grid">
+          <article class="card"><strong>JSON</strong><h3>Versioned JSON contracts</h3><p>Explicit interfaces make exchanges between layers stable, inspectable, and reproducible.</p></article>
+          <article class="card"><strong>LIVE</strong><h3>Live mode</h3><p>Runs acquisition and processing against current external market observations.</p></article>
+          <article class="card"><strong>SYN</strong><h3>Synthetic / Emulator mode</h3><p>Supports deterministic development and testing without relying on live providers.</p></article>
+          <article class="card"><strong>VAL</strong><h3>Automated validation</h3><p>Applies repeatable checks to payloads, contracts, and processing boundaries.</p></article>
+          <article class="card"><strong>INT</strong><h3>Integration</h3><p>Verifies that components compose into a controlled end-to-end observation system.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="observational-architecture" class="section-panel">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">VR1 · Observational Families</div><h2>Nine coordinated market-observation families</h2></div><p class="muted">TradELATIN VR1 organizes heterogeneous financial observations into nine bounded families. C1–C8 form the current operational foundation, while C9 extends the architecture toward blockchain-native financial networks through independently developed ecosystem adapters.</p></div>
+        <div class="family-architecture-grid">
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C1 — Prices</h3><p>Price behavior, returns, trends, technical transformations, and market-cap observations.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C2 — CVD &amp; Order Flow</h3><p>Spot and derivatives volume delta, aggressor behavior, order flow, and divergence observations.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C3 — Open Interest &amp; Funding</h3><p>Open interest, funding conditions, leverage context, and derivatives positioning.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C4 — ETF &amp; Exchange Flows</h3><p>ETF activity, exchange inflows and outflows, accumulation, and distribution behavior.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C5 — On-Chain &amp; Miners</h3><p>Miner reserves, SOPR, hashrate, difficulty, selling pressure, and blockchain activity relevant to market observation.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C6 — Volatility</h3><p>Realized volatility, historical volatility, ATR, distribution shape, and volatility-regime observations.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C7 — Liquidations</h3><p>Long and short liquidations, leverage maps, concentration clusters, and positioning context.</p></article>
+          <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C8 — Liquidity Microstructure</h3><p>Order-book depth, spread, imbalance, whale-order persistence, large trades, and market-impact observations.</p></article>
+          <article class="family-architecture-card planned-family"><span class="status planned">Planned / In Development</span><h3>C9 — Blockchain Financial Networks</h3><p>A network-agnostic framework for converting blockchain-native financial activity into normalized observables.</p></article>
+        </div>
+        <div class="observation-flow" aria-label="External Market and Network Data, C1 through C9 Observational Families, Versioned Family Contracts, Validation and Normalization, Representation and HMI, State Characterization"><span>External Market and Network Data</span><i aria-hidden="true"></i><span>C1–C9 Observational Families</span><i aria-hidden="true"></i><span>Versioned Family Contracts</span><i aria-hidden="true"></i><span>Validation and Normalization</span><i aria-hidden="true"></i><span>Representation / HMI</span><i aria-hidden="true"></i><span>State Characterization</span></div>
+        <p class="family-boundary-note">C1–C8 have operational implementations. C9 follows an independent path for common architecture and ecosystem-specific adapters; it is not presented as operational.</p>
+        <blockquote>The families are analytically distinct but interoperable. Each family preserves its own inputs, transformations, contracts, validation rules, and representations before participating in cross-family state characterization.</blockquote>
+      </div>
+    </section>
+
+    <section id="c9-adapter-architecture">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">C9 · Planned / In Development</div><h2>Network-agnostic adapter architecture</h2></div><p class="muted">Adapter labels describe maturity and conceptual separation. They do not claim an operational integration.</p></div>
+        <p class="boundary-statement">C9 is one family within VR1, not the definition of VR1 as a whole.</p>
+        <p class="c9-extension-note">C9 does not replace C1–C8. It extends the observational system with blockchain-native financial data.</p>
+        <div class="adapter-architecture">
+          <div class="adapter-inputs"><span><strong>Stellar Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>XRPL Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>Stacks Adapter</strong><small>Grant Application in Progress</small></span><span><strong>Future Adapter</strong><small>Conceptual</small></span></div>
+          <i aria-hidden="true"></i><span>Normalized C9 Contracts</span><i aria-hidden="true"></i><span>Financial Observables</span><i aria-hidden="true"></i><span>State Characterization</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="program-architecture" class="section-panel">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">Program architecture</div><h2>Four distinct maturity layers</h2></div><p class="muted">This sequence represents program evolution and boundaries of responsibility, not a claim that every layer is implemented. Only VR1 C1–C8 are operational today.</p></div>
+        <div class="evolution-flow" aria-label="VR1 Observations, then VR2 Structural Representations, then VR3 Predictive Outputs, then VR4 Controlled Decisions and Execution"><span>VR1 Observations</span><i aria-hidden="true"></i><span>VR2 Structural Representations</span><i aria-hidden="true"></i><span>VR3 Predictive Outputs</span><i aria-hidden="true"></i><span>VR4 Controlled Decisions and Execution</span></div>
+        <div class="program-grid">
+          <article class="program-card current"><span class="status operational">Operational for C1–C8</span><h3>VR1 — OBSERVE</h3><p>Produces structured, synchronized, and reproducible financial observations.</p></article>
+          <article class="program-card"><span class="status research">Research</span><h3>VR2 — STRUCTURE</h3><p>Investigates geometry, topology, and mathematical structure in VR1 observations.</p></article>
+          <article class="program-card"><span class="status planned">Planned</span><h3>VR3 — PREDICT</h3><p>Will evaluate predictive models with temporal validation, uncertainty, and leakage control.</p></article>
+          <article class="program-card"><span class="status long-term">Long-term planned</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><p>Will address decisions and autonomous execution under risk controls, supervision, traceability, and a kill switch.</p></article>
+        </div>
+        <div class="layer-boundary-grid">
+          <article id="vr2-architecture"><span class="status research">Research</span><h3>VR2 — STRUCTURE</h3><div class="mini-layer-flow"><span>VR1 Versioned Observations</span><i></i><span>Synchronization and Normalization</span><i></i><span>Mathematical Representation Φ(X)</span><i></i><span>Structural Descriptors</span><i></i><span>Research Outputs</span></div><dl><dt>Input</dt><dd>Versioned and synchronized VR1 observations.</dd><dt>Processing</dt><dd>Mathematical, geometric, topological, and multiscale representation through reproducible transformations Φ(X).</dd><dt>Output</dt><dd>Structural representations, descriptors, candidate states, transitions, and research artifacts.</dd><dt>Organization</dt><dd>VR2 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>VR2 studies structure; it does not predict or execute.</dd></dl></article>
+          <article id="vr3-architecture"><span class="status planned">Planned</span><h3>VR3 — PREDICT</h3><div class="mini-layer-flow"><span>VR1 Observations + VR2 Structural Representations</span><i></i><span>Feature Construction</span><i></i><span>Temporally Validated Models</span><i></i><span>Calibration and Uncertainty</span><i></i><span>Versioned Predictive Outputs</span></div><dl><dt>Input</dt><dd>Validated VR1 observations and VR2 structural representations.</dd><dt>Processing</dt><dd>Feature construction, temporally validated predictive models, calibration, uncertainty, explainability, and leakage control.</dd><dt>Output</dt><dd>Versioned probabilistic predictions and validation evidence.</dd><dt>Organization</dt><dd>VR3 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>VR3 evaluates predictions; it does not execute orders.</dd></dl></article>
+          <article id="vr4-architecture"><span class="status long-term">Long-term planned</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><div class="mini-layer-flow"><span>Validated VR3 Outputs</span><i></i><span>Decision Policy</span><i></i><span>Risk and Authorization Controls</span><i></i><span>Execution Planning</span><i></i><span>Simulation / Paper Trading</span><i></i><span>Audited Execution Gates</span></div><dl><dt>Input</dt><dd>Independently validated VR3 outputs.</dd><dt>Processing</dt><dd>Decision policies, authorization, risk controls, position sizing, execution planning, simulation, and safety gates.</dd><dt>Output</dt><dd>Auditable and controlled decision or execution artifacts, initially restricted to research, simulation, and paper trading.</dd><dt>Organization</dt><dd>VR4 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>No autonomous live-trading capability is currently claimed.</dd></dl></article>
+        </div>
+        <p class="scope-note">This diagram represents defined architectural boundaries and future interoperability. It does not imply equal implementation maturity across the four layers.</p>
+      </div>
+    </section>
+
+    <section id="component-organization">
+      <div class="container component-layout">
+        <div><div class="eyebrow">Repeatable organization</div><h2>Component organization shared by each VR</h2><p class="muted">Each VR is organized around four component responsibilities. Their implementation and maturity depend on the state of that VR.</p></div>
+        <div class="component-stack">
+          <article><span>01</span><div><strong>Screen</strong><p>Human-facing representation and interaction.</p></div></article>
+          <article><span>02</span><div><strong>Processing</strong><p>Domain-specific transformation and analysis.</p></div></article>
+          <article><span>03</span><div><strong>Emulator</strong><p>Repeatable synthetic behavior for development and validation.</p></div></article>
+          <article><span>04</span><div><strong>Integration</strong><p>Controlled composition across components and boundaries.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture-status" class="section-panel">
+      <div class="container">
+        <div class="section-heading"><div><div class="eyebrow">Current status</div><h2>Architecture maturity</h2></div><p class="muted">Operational, research, and planned work are intentionally distinguished.</p></div>
+        <div class="status-matrix">
+          <article><div><span class="status operational">Operational</span><h3>VR1 C1–C8</h3></div><p>External market observational families.</p></article>
+          <article><div><span class="status planned">Planned / In Development</span><h3>C9 Common Architecture</h3></div><p>Blockchain Financial Networks.</p></article>
+          <article><div><span class="status research">Research</span><h3>VR2</h3></div><p>Structural research layer.</p></article>
+          <article><div><span class="status planned">Planned</span><h3>VR3</h3></div><p>Predictive layer.</p></article>
+          <article><div><span class="status long-term">Long-term planned</span><h3>VR4</h3></div><p>Autonomous decision and execution layer.</p></article>
+        </div>
+        <nav class="page-navigation" aria-label="Page sequence"><a class="button button-secondary" href="index.html#architecture">Return Home</a><a class="button" href="blockchain-networks.html">Continue Blockchain</a></nav>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-layout"><p><strong>TradELATIN</strong> · <a href="https://www.linkedin.com/in/ottmar-rafael-uriza-gosebruch-2aaa70226/" target="_blank" rel="noopener noreferrer">Ottmar Uriza</a> · <a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a></p><p>This site distinguishes existing infrastructure, active research, proposed work, and planned development by status.</p></div></footer>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
