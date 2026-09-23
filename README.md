@@ -4,56 +4,28 @@
 
 TradELATIN is an independent research and engineering program for financial observability, structural market representation, predictive modeling, and risk-controlled autonomous decision architectures.
 
-## Program architecture
+## Current status
 
-- **VR1 — OBSERVE:** operational for C1–C8.
-- **VR2 — STRUCTURE:** research.
-- **VR3 — PREDICT:** planned.
-- **VR4 — DECIDE & EXECUTE:** long-term planned.
+- **C1–C8:** implemented observational pipelines, validated primarily through emulator/synthetic/replay workflows. Live acquisition requires external provider credentials and applicable data access.
+- **C9 — Blockchain Financial Networks:** planned / in development.
+- **Stacks:** Getting Started Grant application submitted / under review.
+- **VR2:** research. **VR3:** planned. **VR4:** long-term planned.
 
-Only VR1 is currently operational. VR1 observes markets; it does not predict prices, generate trading signals, or execute trades.
+The existing C1–C8 architecture contains 33 logical endpoints. TradELATIN is not presented as a continuously running public production service. No approval, funding, partnership, endorsement, operational Stacks integration, or completed C9 Stacks implementation is claimed.
 
-## VR1 operational foundation
+## Proposed Stacks grant outputs
 
-VR1 uses a three-layer architecture:
+C9.1 — sBTC Supply & Peg State; C9.2 — sBTC Bridge Flow; C9.3 — sBTC Bridge Operational State. These remain proposed and pre-implementation.
 
-`Acquisition → Processing → Representation/HMI`
+## Stacks C9 technical documentation
 
-Its current foundation includes:
-
-- 33 controlled external data endpoints
-- Live mode
-- Synthetic / Emulator mode
-- Processing
-- Automated validation
-- Versioned JSON contracts
-- Interactive HMI
-
-## Observational families
-
-- **C1–C8:** operational external-market observational families.
-- **C9 — Blockchain Financial Networks:** common architecture planned / in development.
-
-C9 is network-agnostic. It extends TradELATIN's observability architecture to blockchain-native financial activity across multiple networks through normalized contracts and independently scoped ecosystem adapters.
-
-Stellar is one proposed ecosystem-specific integration under preparation for the network-agnostic C9 architecture. Its adapter, data mapping, observables, validation, and demonstrator would be developed as a Stellar-specific scope.
-
-Other ecosystem integrations may be developed independently through their own adapters, scopes, validation artifacts, and funding pathways.
-
-An XRPL integration is proposed / under preparation through a separate XRPL-specific scope. It is not part of the Stellar proposal.
-
-A Stacks-specific integration is being prepared as a grant application. Its adapter, Bitcoin-layer data mapping, network-native observables, validation dataset, emulator, demonstrator, and documentation are independent from every other ecosystem scope. Grant application in progress means only that an application is being prepared or submitted; no approval, funding, partnership, endorsement, operational integration, or completed implementation is claimed.
-
-No network adapter or network support is claimed as currently operational.
-
-## Website
-
-The public website distinguishes operational infrastructure, research, proposals, and planned development by status. Public navigation uses HTML pages; Markdown files under `docs/` remain repository documentation.
+| Component | Repository | Technical Specification | Endpoint Catalog |
+|---|---|---|---|
+| Screen | [Repository](https://github.com/DrUriza/TradElatin-VR1-Screens) | [Technical Specification](https://github.com/DrUriza/TradElatin-VR1-Screens/blob/main/docs/c9/stacks/C9_STACKS_TECHNICAL_SPEC.md) | [Endpoint Catalog](https://github.com/DrUriza/TradElatin-VR1-Screens/blob/main/docs/c9/stacks/C9_STACKS_ENDPOINT_CATALOG.md) |
+| Processing | [Repository](https://github.com/DrUriza/TradElatin-VR1-Proccesing) | [Technical Specification](https://github.com/DrUriza/TradElatin-VR1-Proccesing/blob/main/docs/c9/stacks/C9_STACKS_TECHNICAL_SPEC.md) | [Endpoint Catalog](https://github.com/DrUriza/TradElatin-VR1-Proccesing/blob/main/docs/c9/stacks/C9_STACKS_ENDPOINT_CATALOG.md) |
+| Emulator | [Repository](https://github.com/DrUriza/TradElatin-VR1-Emulator) | [Technical Specification](https://github.com/DrUriza/TradElatin-VR1-Emulator/blob/main/docs/c9/stacks/C9_STACKS_TECHNICAL_SPEC.md) | [Endpoint Catalog](https://github.com/DrUriza/TradElatin-VR1-Emulator/blob/main/docs/c9/stacks/C9_STACKS_ENDPOINT_CATALOG.md) |
+| Integration | [Repository](https://github.com/DrUriza/TradElatin-VR1-Integration) | [Technical Specification](https://github.com/DrUriza/TradElatin-VR1-Integration/blob/main/docs/c9/stacks/C9_STACKS_TECHNICAL_SPEC.md) | [Endpoint Catalog](https://github.com/DrUriza/TradElatin-VR1-Integration/blob/main/docs/c9/stacks/C9_STACKS_ENDPOINT_CATALOG.md) |
 
 ## Founder
 
-**Dr. Ottmar Rafael Uriza Gosebruch**
-
-Mechatronics PhD · Algorithm Engineer · Researcher · Founder of TradELATIN
-
-Mexico
+**Dr. Ottmar Rafael Uriza Gosebruch** — Mechatronics PhD · Algorithm Engineer · Researcher · Founder of TradELATIN · Mexico

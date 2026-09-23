@@ -31,7 +31,7 @@
 
     <section id="vr1-architecture" class="section-panel">
       <div class="container">
-        <div class="section-heading"><div><div class="eyebrow">Operational foundation</div><h2>VR1 architecture</h2></div><p class="muted">The operational VR1 system follows a three-layer flow. Each layer has a distinct responsibility and communicates through structured interfaces.</p></div>
+        <div class="section-heading"><div><div class="eyebrow">Implemented foundation</div><h2>VR1 architecture</h2></div><p class="muted">The implemented VR1 system follows a three-layer flow. Each layer has a distinct responsibility and communicates through structured interfaces.</p></div>
         <div class="architecture-map architecture-map-large" aria-label="Acquisition, then Processing, then Representation and HMI"><span><small>Layer 01</small>Acquisition</span><i aria-hidden="true"></i><span><small>Layer 02</small>Processing</span><i aria-hidden="true"></i><span><small>Layer 03</small>Representation / HMI</span></div>
         <div class="layer-details">
           <article class="card"><span>01</span><h3>Acquisition</h3><p>Collects heterogeneous observations from controlled external data endpoints and market-data providers.</p></article>
@@ -47,7 +47,7 @@
         <div class="section-heading"><div><div class="eyebrow">Cross-layer foundations</div><h2>Shared operational foundations</h2></div><p class="muted">These capabilities connect and support the three VR1 layers without collapsing their responsibilities.</p></div>
         <div class="foundation-grid">
           <article class="card"><strong>JSON</strong><h3>Versioned JSON contracts</h3><p>Explicit interfaces make exchanges between layers stable, inspectable, and reproducible.</p></article>
-          <article class="card"><strong>LIVE</strong><h3>Live mode</h3><p>Runs acquisition and processing against current external market observations.</p></article>
+          <article class="card"><strong>LIVE</strong><h3>Live mode</h3><p>Acquisition paths are implemented but require external provider credentials and applicable data access.</p></article>
           <article class="card"><strong>SYN</strong><h3>Synthetic / Emulator mode</h3><p>Supports deterministic development and testing without relying on live providers.</p></article>
           <article class="card"><strong>VAL</strong><h3>Automated validation</h3><p>Applies repeatable checks to payloads, contracts, and processing boundaries.</p></article>
           <article class="card"><strong>INT</strong><h3>Integration</h3><p>Verifies that components compose into a controlled end-to-end observation system.</p></article>
@@ -57,7 +57,7 @@
 
     <section id="observational-architecture" class="section-panel">
       <div class="container">
-        <div class="section-heading"><div><div class="eyebrow">VR1 · Observational Families</div><h2>Nine coordinated market-observation families</h2></div><p class="muted">TradELATIN VR1 organizes heterogeneous financial observations into nine bounded families. C1–C8 form the current operational foundation, while C9 extends the architecture toward blockchain-native financial networks through independently developed ecosystem adapters.</p></div>
+        <div class="section-heading"><div><div class="eyebrow">VR1 · Observational Families</div><h2>Nine coordinated market-observation families</h2></div><p class="muted">TradELATIN VR1 organizes heterogeneous financial observations into nine bounded families. C1–C8 form the implemented foundation, validated primarily through emulator, synthetic, and replay workflows, while C9 extends the architecture toward blockchain-native financial networks through independently developed ecosystem adapters.</p></div>
         <div class="family-architecture-grid">
           <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C1 — Prices</h3><p>Price behavior, returns, trends, technical transformations, and market-cap observations.</p></article>
           <article class="family-architecture-card operational-family"><span class="status operational">Operational</span><h3>C2 — CVD &amp; Order Flow</h3><p>Spot and derivatives volume delta, aggressor behavior, order flow, and divergence observations.</p></article>
@@ -70,7 +70,7 @@
           <article class="family-architecture-card planned-family"><span class="status planned">Planned / In Development</span><h3>C9 — Blockchain Financial Networks</h3><p>A network-agnostic framework for converting blockchain-native financial activity into normalized observables.</p></article>
         </div>
         <div class="observation-flow" aria-label="External Market and Network Data, C1 through C9 Observational Families, Versioned Family Contracts, Validation and Normalization, Representation and HMI, State Characterization"><span>External Market and Network Data</span><i aria-hidden="true"></i><span>C1–C9 Observational Families</span><i aria-hidden="true"></i><span>Versioned Family Contracts</span><i aria-hidden="true"></i><span>Validation and Normalization</span><i aria-hidden="true"></i><span>Representation / HMI</span><i aria-hidden="true"></i><span>State Characterization</span></div>
-        <p class="family-boundary-note">C1–C8 have operational implementations. C9 follows an independent path for common architecture and ecosystem-specific adapters; it is not presented as operational.</p>
+        <p class="family-boundary-note">C1–C8 have implemented pipelines validated primarily through emulator, synthetic, and replay workflows. Live acquisition requires provider access. C9 follows an independent path for common architecture and ecosystem-specific adapters; it is not presented as operational.</p>
         <blockquote>The families are analytically distinct but interoperable. Each family preserves its own inputs, transformations, contracts, validation rules, and representations before participating in cross-family state characterization.</blockquote>
       </div>
     </section>
@@ -81,7 +81,7 @@
         <p class="boundary-statement">C9 is one family within VR1, not the definition of VR1 as a whole.</p>
         <p class="c9-extension-note">C9 does not replace C1–C8. It extends the observational system with blockchain-native financial data.</p>
         <div class="adapter-architecture">
-          <div class="adapter-inputs"><span><strong>Stellar Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>XRPL Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>Stacks Adapter</strong><small>Grant Application in Progress</small></span><span><strong>Future Adapter</strong><small>Conceptual</small></span></div>
+          <div class="adapter-inputs"><span><strong>Stellar Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>XRPL Adapter</strong><small>Proposed / Under Preparation</small></span><span><strong>Stacks Adapter</strong><small>Grant Submitted / Under Review</small></span><span><strong>Future Adapter</strong><small>Conceptual</small></span></div>
           <i aria-hidden="true"></i><span>Normalized C9 Contracts</span><i aria-hidden="true"></i><span>Financial Observables</span><i aria-hidden="true"></i><span>State Characterization</span>
         </div>
       </div>
@@ -89,10 +89,10 @@
 
     <section id="program-architecture" class="section-panel">
       <div class="container">
-        <div class="section-heading"><div><div class="eyebrow">Program architecture</div><h2>Four distinct maturity layers</h2></div><p class="muted">This sequence represents program evolution and boundaries of responsibility, not a claim that every layer is implemented. Only VR1 C1–C8 are operational today.</p></div>
+        <div class="section-heading"><div><div class="eyebrow">Program architecture</div><h2>Four distinct maturity layers</h2></div><p class="muted">This sequence represents program evolution and boundaries of responsibility, not a claim that every layer is implemented. Only VR1 C1–C8 have implemented pipelines today; validation is primarily emulator, synthetic, and replay based, while live acquisition depends on provider access.</p></div>
         <div class="evolution-flow" aria-label="VR1 Observations, then VR2 Structural Representations, then VR3 Predictive Outputs, then VR4 Controlled Decisions and Execution"><span>VR1 Observations</span><i aria-hidden="true"></i><span>VR2 Structural Representations</span><i aria-hidden="true"></i><span>VR3 Predictive Outputs</span><i aria-hidden="true"></i><span>VR4 Controlled Decisions and Execution</span></div>
         <div class="program-grid">
-          <article class="program-card current"><span class="status operational">Operational for C1–C8</span><h3>VR1 — OBSERVE</h3><p>Produces structured, synchronized, and reproducible financial observations.</p></article>
+          <article class="program-card current"><span class="status operational">C1–C8 Implemented</span><h3>VR1 — OBSERVE</h3><p>Produces structured, synchronized, and reproducible financial observations.</p></article>
           <article class="program-card"><span class="status research">Research</span><h3>VR2 — STRUCTURE</h3><p>Investigates geometry, topology, and mathematical structure in VR1 observations.</p></article>
           <article class="program-card"><span class="status planned">Planned</span><h3>VR3 — PREDICT</h3><p>Will evaluate predictive models with temporal validation, uncertainty, and leakage control.</p></article>
           <article class="program-card"><span class="status long-term">Long-term planned</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><p>Will address decisions and autonomous execution under risk controls, supervision, traceability, and a kill switch.</p></article>
