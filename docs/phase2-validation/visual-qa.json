@@ -1,0 +1,338 @@
+[
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "assets/images/architecture/en/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/en/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 60.09
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "vr1/en/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/en/vr1-observe-poster.webp",
+    "pixel_stddev": 59.76
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "vr2/en/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-structure-poster.webp",
+    "pixel_stddev": 60.6
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "vr3/en/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/en/vr3-predict-poster.webp",
+    "pixel_stddev": 49.48
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "vr4/en/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/en/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 54.97
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "image": "vr5/en/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/en/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 59.91
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../assets/images/architecture/es/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/es/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 59.24
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../vr1/es/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/es/vr1-observe-poster.webp",
+    "pixel_stddev": 59.92
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../vr2/es/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-structure-poster.webp",
+    "pixel_stddev": 58.37
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../vr3/es/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/es/vr3-predict-poster.webp",
+    "pixel_stddev": 50.03
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../vr4/es/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/es/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 54.94
+  },
+  {
+    "page": "es/index.html",
+    "width": 1440,
+    "image": "../vr5/es/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/es/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 59.89
+  },
+  {
+    "page": "vr2.html",
+    "width": 1440,
+    "image": "vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 35.43
+  },
+  {
+    "page": "vr2.html",
+    "width": 1440,
+    "image": "vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 36.53
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 1440,
+    "image": "../vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 36.63
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 1440,
+    "image": "../vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 38.66
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "assets/images/architecture/en/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/en/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 56.65
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "vr1/en/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/en/vr1-observe-poster.webp",
+    "pixel_stddev": 60.83
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "vr2/en/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-structure-poster.webp",
+    "pixel_stddev": 61.4
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "vr3/en/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/en/vr3-predict-poster.webp",
+    "pixel_stddev": 50.47
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "vr4/en/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/en/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 56.11
+  },
+  {
+    "page": "index.html",
+    "width": 768,
+    "image": "vr5/en/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/en/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 60.75
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../assets/images/architecture/es/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/es/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 55.94
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../vr1/es/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/es/vr1-observe-poster.webp",
+    "pixel_stddev": 61.08
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../vr2/es/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-structure-poster.webp",
+    "pixel_stddev": 59.22
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../vr3/es/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/es/vr3-predict-poster.webp",
+    "pixel_stddev": 51.03
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../vr4/es/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/es/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 56.06
+  },
+  {
+    "page": "es/index.html",
+    "width": 768,
+    "image": "../vr5/es/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/es/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 60.81
+  },
+  {
+    "page": "vr2.html",
+    "width": 768,
+    "image": "vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 36.95
+  },
+  {
+    "page": "vr2.html",
+    "width": 768,
+    "image": "vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 41.08
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 768,
+    "image": "../vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 36.51
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 768,
+    "image": "../vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 32.17
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "assets/images/architecture/en/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/en/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 53.25
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "vr1/en/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/en/vr1-observe-poster.webp",
+    "pixel_stddev": 56.61
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "vr2/en/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-structure-poster.webp",
+    "pixel_stddev": 57.49
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "vr3/en/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/en/vr3-predict-poster.webp",
+    "pixel_stddev": 45.92
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "vr4/en/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/en/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 52.12
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "image": "vr5/en/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/en/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 56.43
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../assets/images/architecture/es/tradelatin-vr1-vr5-evolution.png",
+    "selected_source": "http://127.0.0.1:18767/assets/images/architecture/es/tradelatin-vr1-vr5-evolution.webp",
+    "pixel_stddev": 52.45
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../vr1/es/vr1-observe-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr1/es/vr1-observe-poster.webp",
+    "pixel_stddev": 56.59
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../vr2/es/vr2-structure-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-structure-poster.webp",
+    "pixel_stddev": 55.23
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../vr3/es/vr3-predict-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr3/es/vr3-predict-poster.webp",
+    "pixel_stddev": 46.7
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../vr4/es/vr4-decide-execute-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr4/es/vr4-decide-execute-poster.webp",
+    "pixel_stddev": 52.08
+  },
+  {
+    "page": "es/index.html",
+    "width": 390,
+    "image": "../vr5/es/vr5-intelligence-orchestration-poster.png",
+    "selected_source": "http://127.0.0.1:18767/vr5/es/vr5-intelligence-orchestration-poster.webp",
+    "pixel_stddev": 56.46
+  },
+  {
+    "page": "vr2.html",
+    "width": 390,
+    "image": "vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 35.0
+  },
+  {
+    "page": "vr2.html",
+    "width": 390,
+    "image": "vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/en/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 38.31
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 390,
+    "image": "../vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-scientific-architecture-evidence-knowledge.png",
+    "pixel_stddev": 37.86
+  },
+  {
+    "page": "es/vr2.html",
+    "width": 390,
+    "image": "../vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "selected_source": "http://127.0.0.1:18767/vr2/es/vr2-experimental-representation-ladder-d0-d3.png",
+    "pixel_stddev": 38.53
+  }
+]

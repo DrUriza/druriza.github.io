@@ -9,6 +9,24 @@
     { code: "VR5", title: "INTELLIGENCE & ORCHESTRATION", status: "In development", description: "Interacts, explains and coordinates across VR1–VR4 under human supervision.", note: "LLM ≠ Trading Authority. VR4 retains execution authority." }
   ];
 
+  const stagesEs = [
+    { code: "VR1", title: "OBSERVE", status: "C1–C8 implementados", description: "Transforma datos financieros heterogéneos en observaciones estructuradas, sincronizadas y reproducibles.", note: "La adquisición en vivo requiere acceso a proveedores; C9 sigue en desarrollo." },
+    { code: "VR2", title: "STRUCTURE", status: "Conventional implementado", description: "Produce estados y representaciones estructurales a partir de observaciones versionadas de VR1.", note: "Geometric y Topological siguen siendo ramas de investigación / expansión." },
+    { code: "VR3", title: "PREDICT", status: "Arquitectura de componentes predictivos", description: "Organiza modelado determinista, validación temporal, calibración, incertidumbre y resultados predictivos versionados.", note: "Prediction ≠ Execution Authorization. Predicción ≠ Autorización de ejecución; la evidencia de componentes no equivale a despliegue." },
+    { code: "VR4", title: "DECIDE & EXECUTE", status: "Arquitectura de componentes / modos sujetos a autorización", description: "Es responsable de la política de decisión, controles de riesgo, order lifecycle, conciliación y autorización de ejecución.", note: "SIMULATION, PAPER y LIVE sujeto a controles y autorización son modos; no se afirma despliegue con capital real." },
+    { code: "VR5", title: "INTELLIGENCE & ORCHESTRATION", status: "En desarrollo", description: "Interactúa, explica y coordina VR1–VR4 bajo supervisión humana.", note: "LLM ≠ Trading Authority. Un LLM no tiene autoridad de ejecución. VR4 conserva esa autoridad." }
+  ];
+
+  // Preserve an in-page location when switching between equivalent pages.
+  document.querySelectorAll(".language-switcher a").forEach(function (link) {
+    if (window.location.hash) link.hash = window.location.hash;
+  });
+  window.addEventListener("hashchange", function () {
+    document.querySelectorAll(".language-switcher a").forEach(function (link) {
+      link.hash = window.location.hash;
+    });
+  });
+
   const toggle = document.querySelector(".nav-toggle");
   const menu = document.querySelector(".site-menu");
   if (toggle && menu) {
@@ -41,7 +59,7 @@
   if (panel) {
     document.querySelectorAll(".stage-button").forEach(function (button) {
       button.addEventListener("click", function () {
-        const stage = stages[Number(button.dataset.stage)];
+        const stage = (document.documentElement.lang === "es" ? stagesEs : stages)[Number(button.dataset.stage)];
         if (!stage) return;
         document.querySelectorAll(".stage-button").forEach(function (item) {
           const selected = item === button;

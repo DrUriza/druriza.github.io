@@ -1,0 +1,49 @@
+{
+  "pages": 20,
+  "local_references": 586,
+  "errors": [],
+  "stale_paths": [],
+  "changed_original_assets": [],
+  "fallbacks": {
+    "vr1/es/c1-prices-screen-a.png": [
+      "vr1-hmi.html",
+      "vr1.html"
+    ],
+    "vr1/es/c1-prices-screen-b-01.png": [
+      "vr1-hmi.html"
+    ],
+    "vr1/es/c2-cvd-order-flow-screen-a.png": [
+      "vr1-hmi.html",
+      "vr1.html"
+    ],
+    "vr1/es/c2-cvd-order-flow-screen-b-01.png": [
+      "vr1-hmi.html"
+    ],
+    "vr1/es/contextual-intelligence-grok-radar.png": [
+      "vr1-hmi.html"
+    ],
+    "vr1/en/c3-open-interest-funding-screen-a.png": [
+      "es/vr1-hmi.html",
+      "es/vr1.html"
+    ],
+    "vr1/en/c3-open-interest-funding-screen-b.png": [
+      "es/vr1-hmi.html"
+    ],
+    "vr1/en/c4-etf-exchange-flows-screen-a.png": [
+      "es/vr1-hmi.html",
+      "es/vr1.html"
+    ],
+    "vr1/en/c5-on-chain-miners-screen-a.png": [
+      "es/vr1-hmi.html",
+      "es/vr1.html"
+    ],
+    "vr1/en/c6-volatility-market-regimes-screen-a.png": [
+      "es/vr1-hmi.html",
+      "es/vr1.html"
+    ],
+    "vr1/en/c8-liquidity-microstructure-screen-a.png": [
+      "es/vr1-hmi.html",
+      "es/vr1.html"
+    ]
+  }
+}
