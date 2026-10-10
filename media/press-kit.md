@@ -21,10 +21,20 @@ The platform stack includes Python, FastAPI, React, Docker, REST APIs, JSON cont
 ## Contact
 Official contact channels will be published soon.
 
-## Official Logo
-The official ELATIN logo is available at: `assets/logo/elatin-logo.png`
+## Official TradELATIN VR Logo
+The official TradELATIN VR logo is available at: `assets/logo/tradelatin-vr-logo.png`
 
-![ELATIN logo](../assets/logo/elatin-logo.png)
+![TradELATIN VR logo](../assets/logo/tradelatin-vr-logo.png)
 
 ## Official Profile
 - GitHub: https://github.com/DrUriza
+
+## VR roles and authority
+
+- VR1 — OBSERVE
+- VR2 — STRUCTURE
+- VR3 — PREDICT
+- VR4 — DECIDE & EXECUTE
+- VR5 — INTELLIGENCE & ORCHESTRATION — In development
+
+The functional pipeline is VR1 → VR2 → VR3 → VR4. VR5 coordinates transversally across these layers; its agent, tool and workflow capabilities are architectural targets. **LLM ≠ Trading Authority**: execution authority remains in VR4.

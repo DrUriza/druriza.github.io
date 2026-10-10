@@ -3,32 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Architecture of TradELATIN VR1 and the staged TradELATIN research and engineering program.">
+  <meta name="description" content="TradELATIN VR1–VR5 architecture: observation, structure, prediction and controlled execution, coordinated by a transversal intelligence layer.">
   <title>Architecture | TradELATIN</title>
-  <link rel="icon" type="image/png" href="assets/logo/elatin-logo.png">
+  <link rel="icon" type="image/png" href="assets/logo/tradelatin-vr-favicon.png">
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body id="architecture-page">
-  <header>
-    <div class="container">
-      <nav aria-label="Primary navigation">
-        <a href="index.html#top" aria-label="TradELATIN home"><img src="assets/logo/elatin-logo.png" alt="TradELATIN logo" class="nav-logo"></a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="sr-only">Toggle navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
-        <div id="site-menu" class="site-menu">
-          <a href="index.html#top">Home</a><a href="index.html#vr1">VR1</a><a href="index.html#vr2">VR2</a><a href="index.html#vr3">VR3</a><a href="index.html#vr4">VR4</a><a href="index.html#architecture" aria-current="page">Architecture</a><a href="index.html#blockchain-networks">Blockchain Networks</a><a href="index.html#roadmap">Roadmap</a><a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <header><div class="container"><nav aria-label="Primary navigation">
+      <a class="nav-brand" href="index.html#top" aria-label="TradELATIN home"><img src="assets/logo/tradelatin-vr-logo.png" width="1290" height="310" alt="TradELATIN VR logo" class="nav-logo" decoding="async"></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span class="sr-only">Toggle navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <div id="site-menu" class="site-menu"><a href="index.html#top">Home</a><a href="index.html#vr1">VR1</a><a href="index.html#vr2">VR2</a><a href="index.html#vr3">VR3</a><a href="index.html#vr4">VR4</a><a href="index.html#vr5">VR5</a><a href="architecture.html" aria-current="page">Architecture</a><a href="roadmap.html">Roadmap</a><a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+    </nav></div></header>
   <main>
     <section class="hero architecture-hero">
       <div class="container">
         <div class="eyebrow">TradELATIN system design</div>
         <h1>Architecture built around explicit boundaries.</h1>
-        <p>TradELATIN separates acquisition, processing, and human-facing representation while preserving reproducibility through versioned contracts, validation, and controlled integration.</p>
+        <p>TradELATIN separates observation, structural representation, prediction and controlled decision / execution through versioned contracts and validation. VR5 adds transversal intelligence and orchestration; VR4 retains execution authority.</p>
       </div>
     </section>
 
+<section id="architecture-evolution" class="section-panel"><div class="container">
+      <div class="section-heading"><div><div class="eyebrow">Five roles · explicit authority</div><h2>Evolution of the Architecture</h2></div><p class="muted">VR1 observes. VR2 structures. VR3 predicts. VR4 decides and executes under explicit controls. VR5 interacts, explains and orchestrates.</p></div>
+      <div class="orchestration-map" role="group" aria-label="VR5 queries and coordinates all four layers. The functional flow remains VR1 to VR2 to VR3 to VR4; execution authority remains in VR4.">
+      <a class="orchestration-layer" href="vr5.html"><span>VR5</span><strong>INTELLIGENCE &amp; ORCHESTRATION</strong><small>Queries · explanation · coordination · human supervision</small></a>
+      <div class="orchestration-connections" aria-hidden="true"><span>↙</span><span>↓</span><span>↓</span><span>↘</span></div>
+      <div class="functional-layers"><a href="vr1.html"><b>VR1</b><strong>OBSERVE</strong><small>Versioned observations</small></a><a href="vr2.html"><b>VR2</b><strong>STRUCTURE</strong><small>Structural states</small></a><a href="vr3.html"><b>VR3</b><strong>PREDICT</strong><small>Validated predictive outputs</small></a><a href="vr4.html"><b>VR4</b><strong>DECIDE &amp; EXECUTE</strong><small>Risk controls &amp; execution authority</small></a></div>
+      <p class="functional-flow">Functional pipeline: <strong>VR1 → VR2 → VR3 → VR4</strong></p>
+      <p class="map-boundary">VR5 interacts with every layer. Execution authorization and execution-state transitions remain in VR4.</p>
+    </div>
+      <figure class="architecture-poster"><picture><source type="image/webp" srcset="assets/images/architecture/tradelatin-vr1-vr5-evolution.webp"><img class="vr-showcase-image" src="assets/images/architecture/tradelatin-vr1-vr5-evolution.png" width="1122" height="1402" alt="TradELATIN architecture evolution from VR1 Observe to VR5 Intelligence and Orchestration" loading="lazy" decoding="async"></picture><figcaption>This executive poster illustrates the evolution of TradELATIN. VR5 is a transversal coordination layer over VR1–VR4; the base functional pipeline remains VR1 → VR2 → VR3 → VR4. The poster does not indicate deployment status.</figcaption></figure>
+    </div></section>
     <section id="vr1-architecture" class="section-panel">
       <div class="container">
         <div class="section-heading"><div><div class="eyebrow">Implemented foundation</div><h2>VR1 architecture</h2></div><p class="muted">The implemented VR1 system follows a three-layer flow. Each layer has a distinct responsibility and communicates through structured interfaces.</p></div>
@@ -89,30 +94,30 @@
 
     <section id="program-architecture" class="section-panel">
       <div class="container">
-        <div class="section-heading"><div><div class="eyebrow">Program architecture</div><h2>Four distinct maturity layers</h2></div><p class="muted">This sequence represents program evolution and boundaries of responsibility, not a claim that every layer is implemented. Only VR1 C1–C8 have implemented pipelines today; validation is primarily emulator, synthetic, and replay based, while live acquisition depends on provider access.</p></div>
+        <div class="section-heading"><div><div class="eyebrow">Program architecture</div><h2>Four functional layers, one transversal intelligence layer</h2></div><p class="muted">The base functional pipeline remains VR1 → VR2 → VR3 → VR4. VR5 can query and coordinate each of those layers. Maturity remains specific to a branch, component and release; architecture diagrams do not establish production readiness.</p></div>
         <div class="evolution-flow" aria-label="VR1 Observations, then VR2 Structural Representations, then VR3 Predictive Outputs, then VR4 Controlled Decisions and Execution"><span>VR1 Observations</span><i aria-hidden="true"></i><span>VR2 Structural Representations</span><i aria-hidden="true"></i><span>VR3 Predictive Outputs</span><i aria-hidden="true"></i><span>VR4 Controlled Decisions and Execution</span></div>
         <div class="program-grid">
           <article class="program-card current"><span class="status operational">C1–C8 Implemented</span><h3>VR1 — OBSERVE</h3><p>Produces structured, synchronized, and reproducible financial observations.</p></article>
-          <article class="program-card"><span class="status research">Research</span><h3>VR2 — STRUCTURE</h3><p>Investigates geometry, topology, and mathematical structure in VR1 observations.</p></article>
-          <article class="program-card"><span class="status planned">Planned</span><h3>VR3 — PREDICT</h3><p>Will evaluate predictive models with temporal validation, uncertainty, and leakage control.</p></article>
-          <article class="program-card"><span class="status long-term">Long-term planned</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><p>Will address decisions and autonomous execution under risk controls, supervision, traceability, and a kill switch.</p></article>
-        </div>
+          <article class="program-card"><span class="status operational">Conventional implemented</span><h3>VR2 — STRUCTURE</h3><p>Produces structural states in the CONVENTIONAL branch. GEOMETRIC and TOPOLOGICAL remain research / expansion.</p></article>
+          <article class="program-card"><span class="status progress">Predictive component architecture</span><h3>VR3 — PREDICT</h3><p>Organizes deterministic predictive components, temporal validation, uncertainty, calibration and versioned outputs.</p></article>
+          <article class="program-card"><span class="status progress">Component architecture · gated modes</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><p>Owns decisions, risk controls, authorization, order lifecycle and reconciliation across SIMULATION, PAPER and gated LIVE modes.</p></article>
+        <article class="program-card"><span class="status progress">In development</span><h3>VR5 — INTELLIGENCE &amp; ORCHESTRATION</h3><p>Queries, explains and coordinates across VR1–VR4; execution authority remains in VR4.</p><a class="text-link" href="vr5.html">Explore VR5 →</a></article></div>
         <div class="layer-boundary-grid">
-          <article id="vr2-architecture"><span class="status research">Research</span><h3>VR2 — STRUCTURE</h3><div class="mini-layer-flow"><span>VR1 Versioned Observations</span><i></i><span>Synchronization and Normalization</span><i></i><span>Mathematical Representation Φ(X)</span><i></i><span>Structural Descriptors</span><i></i><span>Research Outputs</span></div><dl><dt>Input</dt><dd>Versioned and synchronized VR1 observations.</dd><dt>Processing</dt><dd>Mathematical, geometric, topological, and multiscale representation through reproducible transformations Φ(X).</dd><dt>Output</dt><dd>Structural representations, descriptors, candidate states, transitions, and research artifacts.</dd><dt>Organization</dt><dd>VR2 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>VR2 studies structure; it does not predict or execute.</dd></dl></article>
-          <article id="vr3-architecture"><span class="status planned">Planned</span><h3>VR3 — PREDICT</h3><div class="mini-layer-flow"><span>VR1 Observations + VR2 Structural Representations</span><i></i><span>Feature Construction</span><i></i><span>Temporally Validated Models</span><i></i><span>Calibration and Uncertainty</span><i></i><span>Versioned Predictive Outputs</span></div><dl><dt>Input</dt><dd>Validated VR1 observations and VR2 structural representations.</dd><dt>Processing</dt><dd>Feature construction, temporally validated predictive models, calibration, uncertainty, explainability, and leakage control.</dd><dt>Output</dt><dd>Versioned probabilistic predictions and validation evidence.</dd><dt>Organization</dt><dd>VR3 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>VR3 evaluates predictions; it does not execute orders.</dd></dl></article>
-          <article id="vr4-architecture"><span class="status long-term">Long-term planned</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><div class="mini-layer-flow"><span>Validated VR3 Outputs</span><i></i><span>Decision Policy</span><i></i><span>Risk and Authorization Controls</span><i></i><span>Execution Planning</span><i></i><span>Simulation / Paper Trading</span><i></i><span>Audited Execution Gates</span></div><dl><dt>Input</dt><dd>Independently validated VR3 outputs.</dd><dt>Processing</dt><dd>Decision policies, authorization, risk controls, position sizing, execution planning, simulation, and safety gates.</dd><dt>Output</dt><dd>Auditable and controlled decision or execution artifacts, initially restricted to research, simulation, and paper trading.</dd><dt>Organization</dt><dd>VR4 Screen / Processing / Emulator / Integration.</dd><dt>Limit</dt><dd>No autonomous live-trading capability is currently claimed.</dd></dl></article>
+          <article id="vr2-architecture"><span class="status operational">Conventional implemented</span><h3>VR2 — STRUCTURE</h3><div class="mini-layer-flow"><span>VR1 Versioned Observations</span><i></i><span>Synchronization and Normalization</span><i></i><span>Mathematical Representation Φ(X)</span><i></i><span>Structural Descriptors</span><i></i><span>Structural States / Versioned Outputs</span></div><dl><dt>Input</dt><dd>Versioned and synchronized VR1 observations.</dd><dt>Processing</dt><dd>Conventional structural transformations, with geometric, topological and multiscale methods identified separately as research.</dd><dt>Output</dt><dd>Structural representations, descriptors, candidate states, transitions, and research artifacts.</dd><dt>Organization</dt><dd>VR2 Screen / Processing / Integration. Fixtures and replay belong to Processing / Integration.</dd><dt>Limit</dt><dd>VR2 studies structure; it does not predict or execute.</dd></dl></article>
+          <article id="vr3-architecture"><span class="status progress">Predictive component architecture</span><h3>VR3 — PREDICT</h3><div class="mini-layer-flow"><span>VR1 Observations + VR2 Structural Representations</span><i></i><span>Feature Construction</span><i></i><span>Temporally Validated Models</span><i></i><span>Calibration and Uncertainty</span><i></i><span>Versioned Predictive Outputs</span></div><dl><dt>Input</dt><dd>Validated VR1 observations and VR2 structural representations.</dd><dt>Processing</dt><dd>Feature construction, temporally validated predictive models, calibration, uncertainty, explainability, and leakage control.</dd><dt>Output</dt><dd>Versioned probabilistic predictions and validation evidence.</dd><dt>Organization</dt><dd>VR3 Screen / Processing / Integration. Fixtures and replay belong to Processing / Integration.</dd><dt>Limit</dt><dd>VR3 evaluates predictions; it does not execute orders.</dd></dl></article>
+          <article id="vr4-architecture"><span class="status progress">Component architecture · gated modes</span><h3>VR4 — DECIDE &amp; EXECUTE</h3><div class="mini-layer-flow"><span>Validated VR3 Outputs</span><i></i><span>Decision Policy</span><i></i><span>Risk and Authorization Controls</span><i></i><span>Execution Planning</span><i></i><span>Simulation / Paper Trading</span><i></i><span>Audited Execution Gates</span></div><dl><dt>Input</dt><dd>Independently validated VR3 outputs.</dd><dt>Processing</dt><dd>Decision policies, authorization, risk controls, position sizing, execution planning, simulation, and safety gates.</dd><dt>Output</dt><dd>Auditable and controlled decision or execution artifacts, initially restricted to research, simulation, and paper trading.</dd><dt>Organization</dt><dd>VR4 Screen / Processing / Integration. SIMULATION, PAPER and LIVE are operating modes, with LIVE explicitly gated.</dd><dt>Limit</dt><dd>VR4 retains execution authority. LIVE is gated; no real-capital deployment is claimed.</dd></dl></article>
         </div>
-        <p class="scope-note">This diagram represents defined architectural boundaries and future interoperability. It does not imply equal implementation maturity across the four layers.</p>
+        <p class="scope-note">These boundaries apply to the four-layer functional pipeline. VR5 coordinates across the layers; no diagram implies equal maturity or automatic execution authorization.</p>
       </div>
     </section>
 
     <section id="component-organization">
       <div class="container component-layout">
-        <div><div class="eyebrow">Repeatable organization</div><h2>Component organization shared by each VR</h2><p class="muted">Each VR is organized around four component responsibilities. Their implementation and maturity depend on the state of that VR.</p></div>
+        <div><div class="eyebrow">Repeatable organization</div><h2>Component organization and validation ownership</h2><p class="muted">VR1 uses Screen, Processing, Connection / Emulator and Integration. VR2–VR4 use Screen, Processing and Integration; fixtures, replay and test datasets belong within Processing / Integration. VR5 is an intelligence and orchestration layer in development.</p></div>
         <div class="component-stack">
           <article><span>01</span><div><strong>Screen</strong><p>Human-facing representation and interaction.</p></div></article>
           <article><span>02</span><div><strong>Processing</strong><p>Domain-specific transformation and analysis.</p></div></article>
-          <article><span>03</span><div><strong>Emulator</strong><p>Repeatable synthetic behavior for development and validation.</p></div></article>
+          <article><span>03</span><div><strong>Connection / Emulator · VR1 only</strong><p>Independent acquisition and repeatable synthetic / replay inputs for VR1 development and validation.</p></div></article>
           <article><span>04</span><div><strong>Integration</strong><p>Controlled composition across components and boundaries.</p></div></article>
         </div>
       </div>
@@ -120,19 +125,19 @@
 
     <section id="architecture-status" class="section-panel">
       <div class="container">
-        <div class="section-heading"><div><div class="eyebrow">Current status</div><h2>Architecture maturity</h2></div><p class="muted">Implemented, research, and planned work are intentionally distinguished.</p></div>
+        <div class="section-heading"><div><div class="eyebrow">Current status</div><h2>Architecture maturity</h2></div><p class="muted">Implemented / validated engineering, research / expansion, component architecture, development and future capability remain distinct.</p></div>
         <div class="status-matrix">
           <article><div><span class="status operational">Implemented</span><h3>VR1 C1–C8</h3></div><p>Implemented observational pipelines, validated primarily through emulator, synthetic, and replay workflows. Live acquisition requires provider access.</p></article>
           <article><div><span class="status planned">Planned / In Development</span><h3>C9 Common Architecture</h3></div><p>Blockchain Financial Networks.</p></article>
-          <article><div><span class="status research">Research</span><h3>VR2</h3></div><p>Structural research layer.</p></article>
-          <article><div><span class="status planned">Planned</span><h3>VR3</h3></div><p>Predictive layer.</p></article>
-          <article><div><span class="status long-term">Long-term planned</span><h3>VR4</h3></div><p>Autonomous decision and execution layer.</p></article>
-        </div>
+          <article><div><span class="status operational">Conventional implemented</span><h3>VR2</h3></div><p>CONVENTIONAL implementation scope; GEOMETRIC and TOPOLOGICAL remain research / expansion.</p></article>
+          <article><div><span class="status progress">Predictive component architecture</span><h3>VR3</h3></div><p>Deterministic predictive components and validation responsibilities; release-specific evidence is distinct from production readiness.</p></article>
+          <article><div><span class="status progress">Component architecture · gated modes</span><h3>VR4</h3></div><p>Decision and execution authority with SIMULATION, PAPER and gated LIVE; no real-capital deployment claimed.</p></article>
+        <article><div><span class="status progress">In development</span><h3>VR5</h3></div><p>Intelligence and orchestration; target agent and workflow capabilities are not claimed as implemented.</p></article></div>
         <nav class="page-navigation" aria-label="Page sequence"><a class="button button-secondary" href="index.html#architecture">Return Home</a><a class="button" href="blockchain-networks.html">Continue Blockchain</a></nav>
       </div>
     </section>
   </main>
-  <footer><div class="container footer-layout"><p><strong>TradELATIN</strong> · <a href="https://www.linkedin.com/in/ottmar-rafael-uriza-gosebruch-2aaa70226/" target="_blank" rel="noopener noreferrer">Ottmar Uriza</a> · <a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a></p><p>This site distinguishes implemented infrastructure, research, proposals, and planned development by status.</p></div></footer>
+  <footer><div class="container footer-layout"><p><strong>TradELATIN</strong> · <a href="https://www.linkedin.com/in/ottmar-rafael-uriza-gosebruch-2aaa70226/" target="_blank" rel="noopener noreferrer">Ottmar Uriza</a> · <a href="https://github.com/DrUriza/druriza.github.io" target="_blank" rel="noopener noreferrer">GitHub</a></p><p>OBSERVE · STRUCTURE · PREDICT · DECIDE · ORCHESTRATE<br>This site distinguishes engineering scope, research, proposals and development by status.</p></div></footer>
   <script src="assets/js/site.js"></script>
 </body>
 </html>

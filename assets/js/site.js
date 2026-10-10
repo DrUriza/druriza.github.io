@@ -2,10 +2,11 @@
   "use strict";
 
   const stages = [
-    { code: "VR1", title: "OBSERVE", status: "Operational", description: "Transforms heterogeneous financial data into structured, synchronized, and reproducible observations.", note: "Current operational foundation." },
-    { code: "VR2", title: "STRUCTURE", status: "Research", description: "Investigates the geometry, topology, and mathematical structure of the observations produced by VR1.", note: "Research stage; not presented as implemented." },
-    { code: "VR3", title: "PREDICT", status: "Planned", description: "Will develop and evaluate predictive models with temporal validation, uncertainty estimation, and leakage control.", note: "Planned predictive layer; not currently operational." },
-    { code: "VR4", title: "DECIDE & EXECUTE", status: "Long-term planned", description: "Will convert validated predictions into decisions and autonomous execution under risk management, supervision, traceability, and a kill switch.", note: "Long-term autonomous trading and execution layer; not currently operational." }
+    { code: "VR1", title: "OBSERVE", status: "C1–C8 Implemented", description: "Transforms heterogeneous financial data into structured, synchronized and reproducible observations.", note: "Live acquisition requires provider access; C9 remains in development." },
+    { code: "VR2", title: "STRUCTURE", status: "Conventional implemented", description: "Produces structural states and representations from versioned VR1 observations.", note: "Geometric and Topological remain research / expansion branches." },
+    { code: "VR3", title: "PREDICT", status: "Predictive component architecture", description: "Organizes deterministic modeling, temporal validation, calibration, uncertainty and versioned predictive outputs.", note: "Prediction ≠ Execution Authorization; component evidence is distinct from deployment." },
+    { code: "VR4", title: "DECIDE & EXECUTE", status: "Component architecture / gated modes", description: "Owns decision policy, risk controls, order lifecycle, reconciliation and execution authorization.", note: "SIMULATION, PAPER and gated LIVE are modes; no real-capital deployment is claimed." },
+    { code: "VR5", title: "INTELLIGENCE & ORCHESTRATION", status: "In development", description: "Interacts, explains and coordinates across VR1–VR4 under human supervision.", note: "LLM ≠ Trading Authority. VR4 retains execution authority." }
   ];
 
   const toggle = document.querySelector(".nav-toggle");
@@ -14,6 +15,19 @@
     toggle.addEventListener("click", function () {
       const open = menu.classList.toggle("open");
       toggle.setAttribute("aria-expanded", String(open));
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && menu.classList.contains("open")) {
+        menu.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.focus();
+      }
+    });
+    window.matchMedia("(min-width: 1051px)").addEventListener("change", function (event) {
+      if (event.matches) {
+        menu.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      }
     });
     menu.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
