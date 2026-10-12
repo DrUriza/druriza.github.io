@@ -1,3 +1,5 @@
+> Estado hist?rico: el cierre HMI y sus validaciones actuales est?n en [hmi-bilingual-final-closure.md](hmi-bilingual-final-closure.md). Las referencias cruzadas y los fallbacks de idioma descritos en esta auditor?a ya se resolvieron.
+
 # Seguimiento de localización de Screen
 
 Se corrigió la ruta de presentación de contratos canónicos de Crypto y Equities en `TradElatin-VR1-Screens/app.py`: ahora renderiza dentro del contexto del idioma solicitado y localiza el árbol de componentes. Antes ambas funciones descartaban `locale`. La localización existente mantiene intactos los identificadores de componentes y los datos numéricos de los gráficos.

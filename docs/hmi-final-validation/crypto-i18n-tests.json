@@ -1,0 +1,114 @@
+[
+  {
+    "route": "/prices",
+    "view": "main",
+    "graphs": 1,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/prices",
+    "view": "analysis",
+    "graphs": 11,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/cvd-orderflow",
+    "view": "main",
+    "graphs": 4,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/cvd-orderflow",
+    "view": "analysis",
+    "graphs": 12,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/open-interest-and-funding",
+    "view": "main",
+    "graphs": 3,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/open-interest-and-funding",
+    "view": "analysis",
+    "graphs": 6,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/etf-exchange-flows",
+    "view": "main",
+    "graphs": 3,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/etf-exchange-flows",
+    "view": "analysis",
+    "graphs": 6,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/on-chain-miners",
+    "view": "main",
+    "graphs": 4,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/on-chain-miners",
+    "view": "analysis",
+    "graphs": 4,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/volatility-market-regimes",
+    "view": "main",
+    "graphs": 2,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/volatility-market-regimes",
+    "view": "analysis",
+    "graphs": 6,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/long-short-liquidations",
+    "view": "main",
+    "graphs": 4,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/long-short-liquidations",
+    "view": "analysis",
+    "graphs": 6,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/liquidity",
+    "view": "main",
+    "graphs": 7,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  },
+  {
+    "route": "/liquidity",
+    "view": "analysis",
+    "graphs": 6,
+    "ids_unchanged": true,
+    "data_unchanged": true
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\cvd_volume_orderflow_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\cvd_volume_orderflow_VR1_FINAL.json",
+    "sha256": "d2db32c1e4c61cfc43ba71d78ca2f67c79115d41799f894229c449927c176f0b"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\etf_exchange_flows_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\etf_exchange_flows_VR1_FINAL.json",
+    "sha256": "c7f519504369912cabeb8c0c26aab000dbfe0765bbc27559abffc52c21e6aed5"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\liquidity_microstructure_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\liquidity_microstructure_VR1_FINAL.json",
+    "sha256": "9b774368401dbb515b7f2de353d2910505e8d91bc43403d77e0830d821e548b6"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\long_short_liquidations_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\long_short_liquidations_VR1_FINAL.json",
+    "sha256": "dae554c55ed6a16356395220c6f2d15e44e1905990b26a0aa4214e80769e0fa4"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\on_chain_miners_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\on_chain_miners_VR1_FINAL.json",
+    "sha256": "90b1399c08583bb64709be5d213ffbceea63dde6878f9f23e12848920bb2b58a"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\open_interest_and_funding_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\open_interest_and_funding_VR1_FINAL.json",
+    "sha256": "e7f849721eef406df7478d66e053dd590ce0ce4e2e5f980ef0d7242eb842cf04"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\prices_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\prices_VR1_FINAL.json",
+    "sha256": "cd3c238d64e0a24f06c2f7c20fdc631fcbaab977c58b5a34b7d6336ce59da8e5"
+  },
+  {
+    "source": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin VR\\TradElatin VR1\\TradElatin-VR1-Screens\\data\\contracts\\volatility_market_regimes_VR1_FINAL.json",
+    "copy": ".tmp\\hmi-reference-replay\\data\\contracts\\volatility_market_regimes_VR1_FINAL.json",
+    "sha256": "5d6a2abf1e2fdda8ba715cfa881665a7a917d3fdb4df34e756244129665110b1"
+  }
+]

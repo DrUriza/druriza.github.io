@@ -1,0 +1,4 @@
+warning: in the working copy of 'es/vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'es/vr1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vr1.html', LF will be replaced by CRLF the next time Git touches it

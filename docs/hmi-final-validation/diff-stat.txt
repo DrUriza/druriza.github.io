@@ -1,0 +1,12 @@
+ docs/phase1-bilingual-assets-audit.md  |  2 ++
+ docs/phase2-bilingual-visual-parity.md |  2 ++
+ docs/screen-i18n-followup.md           |  2 ++
+ es/vr1-hmi.html                        | 12 ++++++------
+ es/vr1.html                            | 10 +++++-----
+ vr1-hmi.html                           | 10 +++++-----
+ vr1.html                               |  4 ++--
+ 7 files changed, 24 insertions(+), 18 deletions(-)
+warning: in the working copy of 'es/vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'es/vr1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vr1.html', LF will be replaced by CRLF the next time Git touches it

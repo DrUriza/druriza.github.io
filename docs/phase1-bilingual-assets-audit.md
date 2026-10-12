@@ -1,3 +1,5 @@
+> Estado hist?rico: el cierre HMI y sus validaciones actuales est?n en [hmi-bilingual-final-closure.md](hmi-bilingual-final-closure.md). Las referencias cruzadas y los fallbacks de idioma descritos en esta auditor?a ya se resolvieron.
+
 # Fase 1: normalizacion bilingue de assets existentes
 
 34 archivos movidos; hashes SHA-256 antes/despues identicos.

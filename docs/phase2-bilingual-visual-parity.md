@@ -1,3 +1,5 @@
+> Estado hist?rico: el cierre HMI y sus validaciones actuales est?n en [hmi-bilingual-final-closure.md](hmi-bilingual-final-closure.md). Las referencias cruzadas y los fallbacks de idioma descritos en esta auditor?a ya se resolvieron.
+
 # Fase 2: paridad visual bilingue
 
 ## A. Fase 2A creada

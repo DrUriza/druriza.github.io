@@ -1,0 +1,15 @@
+{
+  "crypto_family_view_pairs": 16,
+  "equities_family_view_pairs": 16,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "component_ids_preserved": true,
+  "numeric_graph_data_preserved": true,
+  "locale_context_isolated": true,
+  "table_row_ids_and_numeric_values_preserved": true,
+  "axis_tick_values_preserved": true,
+  "grok_upstream_unchanged": true,
+  "result": "PASS"
+}

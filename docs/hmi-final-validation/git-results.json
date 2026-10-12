@@ -1,0 +1,17 @@
+{
+  "diff-check": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'es/vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'es/vr1.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'vr1.html', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "diff-stat": {
+    "exit_code": 0,
+    "stdout": " docs/phase1-bilingual-assets-audit.md  |  2 ++\n docs/phase2-bilingual-visual-parity.md |  2 ++\n docs/screen-i18n-followup.md           |  2 ++\n es/vr1-hmi.html                        | 12 ++++++------\n es/vr1.html                            | 10 +++++-----\n vr1-hmi.html                           | 10 +++++-----\n vr1.html                               |  4 ++--\n 7 files changed, 24 insertions(+), 18 deletions(-)\n",
+    "stderr": "warning: in the working copy of 'es/vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'es/vr1.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'vr1-hmi.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'vr1.html', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status-short": {
+    "exit_code": 0,
+    "stdout": " M docs/phase1-bilingual-assets-audit.md\n M docs/phase2-bilingual-visual-parity.md\n M docs/screen-i18n-followup.md\n M es/vr1-hmi.html\n M es/vr1.html\n M vr1-hmi.html\n M vr1.html\n?? docs/hmi-bilingual-final-closure.md\n?? docs/hmi-final-validation/\n?? vr1/en/c1-prices-screen-a.png\n?? vr1/en/c1-prices-screen-b-01.png\n?? vr1/en/c2-cvd-order-flow-screen-a.png\n?? vr1/en/c2-cvd-order-flow-screen-b-01.png\n?? vr1/en/contextual-intelligence-grok-radar.png\n?? vr1/es/c3-open-interest-funding-screen-a.png\n?? vr1/es/c3-open-interest-funding-screen-b.png\n?? vr1/es/c4-etf-exchange-flows-screen-a.png\n?? vr1/es/c5-on-chain-miners-screen-a.png\n?? vr1/es/c6-volatility-market-regimes-screen-a.png\n?? vr1/es/c8-liquidity-microstructure-screen-a.png\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "page_visits": 60,
+  "pages": [
+    {
+      "page": "architecture.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "blockchain-networks.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "roadmap.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1-hmi.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr2.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr3.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr4.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr5.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/architecture.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/blockchain-networks.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/index.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/roadmap.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1-hmi.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr2.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr3.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr4.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr5.html",
+      "width": 1440,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "architecture.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "blockchain-networks.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "roadmap.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1-hmi.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr2.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr3.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr4.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr5.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/architecture.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/blockchain-networks.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/index.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/roadmap.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1-hmi.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr2.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr3.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr4.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr5.html",
+      "width": 768,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "architecture.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "blockchain-networks.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "roadmap.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1-hmi.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr1.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr2.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr3.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr4.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "vr5.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/architecture.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/blockchain-networks.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/index.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/roadmap.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1-hmi.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr1.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr2.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr3.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr4.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    },
+    {
+      "page": "es/vr5.html",
+      "width": 390,
+      "http": 200,
+      "overflow": false,
+      "js_errors": []
+    }
+  ],
+  "lightbox_checks": [
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 1440,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 1440,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 768,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 768,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c1-prices-screen-b-01.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 390,
+      "close": "Escape",
+      "pass": true
+    },
+    {
+      "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+      "width": 390,
+      "close": "X",
+      "pass": true
+    }
+  ],
+  "new_images_checked": 11,
+  "failures": []
+}

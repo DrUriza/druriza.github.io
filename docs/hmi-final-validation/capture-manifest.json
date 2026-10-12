@@ -1,0 +1,3701 @@
+[
+  {
+    "family": "C1",
+    "screen": "A",
+    "language": "en",
+    "name": "c1-prices-screen-a.png",
+    "resolution": [
+      1887,
+      909
+    ],
+    "reference": "vr1/es/c1-prices-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/prices?lang=en",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nPrecios\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n1m\n5m\n15m\n4h\nANÁLISIS TÉCNICO DEL PRECIO ↗\n↻ RECARGAR\nSINTÉTICO\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:00:00 de 01/09/2026\nPRECIO ACTUAL\nI\n100.01K\nUSDT\nCAMBIO 24H\nI\n-30.983%\nCHANGE 15M\nI\n+0.41045%\nCHANGE 4H\nI\n+5.209%\nMÁX. 24H\nI\n154.12K\nUSDT\nMÍN. 24H\nI\n94.75K\nUSDT\nVOLUMEN 24H\nI\n39.23B\nUSDT\nRELATIVE VOLUME\nI\n0.36741\nVOLUME Z-SCORE\nI\n-3.936\nCAPITALIZACIÓN\nI\n1.98T\nUSD\nVOLATILIDAD (ATR %)\nI\n0.52642%\nCANDLE RANGE %\nI\n0.07416%\nPRECIOS / OHLCV\ni\n60k\n80k\n100k\n120k\n140k\n160k\n180k\n18:00Aug 31, 2026\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n614.48M\n307.24M\n0\n307.24M\n614.48M\nBB CENTRAL\nBB INFERIOR\nBB SUPERIOR\nWMA 50\nWMA 20\nSMA 50\nSMA 20\nEMA 21\nEMA 9\nOHLC\nVOLUMEN COMPRA / VENTA\nFIB 0%\nFIB 23.6%\nFIB 38.2%\nFIB 50%\nFIB 61.8%\nFIB 78.6%\nFIB 100%\nSUPPORT S1\nRESISTANCE R1\nINDICADORES (Selecciona para mostrar)\ni\nSelecciona indicadores y abre la pantalla de análisis.\nTENDENCIA\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nBANDAS, NIVELES Y CANALES · SOBRE PRECIO\nBollinger Bands (20, 2)\nFibonacci\nSoportes\nResistencias\nCanal de Regresión\nVOLUMEN\nVolumen\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "2a01a86ce42dcfb876c9481eee6dec7461bac91f866d847df583f01f467ec51a",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "VOLUMEN COMPRA / VENTA",
+              "FIB 0%",
+              "FIB 23.6%",
+              "FIB 38.2%",
+              "FIB 50%",
+              "FIB 61.8%",
+              "FIB 78.6%",
+              "FIB 100%",
+              "SUPPORT S1",
+              "RESISTANCE R1",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "OHLC",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 9",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 21",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB SUPERIOR",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB INFERIOR",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB CENTRAL",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "BUY VOLUME",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "SELL VOLUME",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nPrices\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n1m\n5m\n15m\n4h\nPRICE TECHNICAL ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:00:00 de 01/09/2026\nCURRENT PRICE\nI\n100.01K\nUSDT\nCHANGE 24H\nI\n-30.983%\nCHANGE 15M\nI\n+0.41045%\nCHANGE 4H\nI\n+5.209%\nHIGH 24H\nI\n154.12K\nUSDT\nLOW 24H\nI\n94.75K\nUSDT\nVOLUME 24H\nI\n39.23B\nUSDT\nRELATIVE VOLUME\nI\n0.36741\nVOLUME Z-SCORE\nI\n-3.936\nMARKET CAP\nI\n1.98T\nUSD\nVOLATILITY (ATR %)\nI\n0.52642%\nCANDLE RANGE %\nI\n0.07416%\nPRICES / OHLCV\ni\n60k\n80k\n100k\n120k\n140k\n160k\n180k\n18:00Aug 31, 2026\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n614.48M\n307.24M\n0\n307.24M\n614.48M\nBB MIDDLE\nBB LOWER\nBB UPPER\nWMA 50\nWMA 20\nSMA 50\nSMA 20\nEMA 21\nEMA 9\nOHLC\nBUY / SELL VOLUME\nFIB 0%\nFIB 23.6%\nFIB 38.2%\nFIB 50%\nFIB 61.8%\nFIB 78.6%\nFIB 100%\nSUPPORT S1\nRESISTANCE R1\nINDICATORS (Select to display)\ni\nSelect indicators and open the analysis screen.\nTREND\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nBANDS, LEVELS & CHANNELS · ON PRICE\nBollinger Bands (20, 2)\nFibonacci\nSupport\nResistance\nRegression Channel\nVOLUME\nVolume\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "2a01a86ce42dcfb876c9481eee6dec7461bac91f866d847df583f01f467ec51a",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "BUY / SELL VOLUME",
+              "FIB 0%",
+              "FIB 23.6%",
+              "FIB 38.2%",
+              "FIB 50%",
+              "FIB 61.8%",
+              "FIB 78.6%",
+              "FIB 100%",
+              "SUPPORT S1",
+              "RESISTANCE R1",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "OHLC",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 9",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 21",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB UPPER",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB LOWER",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB MIDDLE",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "BUY VOLUME",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "SELL VOLUME",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\prices_VR1_FINAL.json",
+      "sha256": "cd3c238d64e0a24f06c2f7c20fdc631fcbaab977c58b5a34b7d6336ce59da8e5",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "default_market": "spot",
+        "available_markets": [
+          "spot"
+        ],
+        "default_timeframe": "15m",
+        "available_timeframes": [
+          "1m",
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "performance_basis": "market_returns",
+        "symbol": "BTCUSDT",
+        "base_asset": "BTC",
+        "quote_asset": "USDT",
+        "exchange": "Binance",
+        "provider": null,
+        "units": {
+          "price": "USDT",
+          "volume": "USDT_notional",
+          "returns": "decimal"
+        },
+        "refresh_policy": {
+          "mode": "bootstrap",
+          "contract": "atomic_file_replace"
+        },
+        "history_policy": {
+          "calculation": "full_available_history",
+          "presentation": "tail_window",
+          "default_display_window": 120
+        },
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788293139,
+        "generated_at": "2026-09-01T20:05:39+00:00",
+        "selected_data_as_of": "2026-09-01T20:00:00+00:00",
+        "data_as_of": "2026-09-01T20:00:00+00:00",
+        "updated_at": null,
+        "cross_detection_policy": {
+          "moving_average_series": [
+            "ema_9",
+            "ema_21",
+            "sma_20",
+            "sma_50",
+            "wma_20",
+            "wma_50"
+          ],
+          "pair_generation": "same_family_only",
+          "moving_average_pair_count": 3,
+          "cross_rule": {
+            "above": "previous_difference <= 0 and current_difference > 0",
+            "below": "previous_difference >= 0 and current_difference < 0"
+          },
+          "channel_pairs": [
+            {
+              "first_series": "regression_channel.middle",
+              "second_series": "bollinger_bands.middle"
+            }
+          ],
+          "moving_average_families": {
+            "EMA": [
+              "ema_9",
+              "ema_21"
+            ],
+            "SMA": [
+              "sma_20",
+              "sma_50"
+            ],
+            "WMA": [
+              "wma_20",
+              "wma_50"
+            ]
+          },
+          "cross_family_pairs_allowed": false
+        },
+        "regression_channel_policy": {
+          "window": 100,
+          "deviation_multiplier": 2.0,
+          "price_field": "close",
+          "fit": "rolling_ordinary_least_squares",
+          "width_basis": "population_standard_deviation_of_residuals"
+        },
+        "volume_side_policy": {
+          "unit": "USD",
+          "method": "cvd_taker_buy_sell_when_aligned_else_candle_position_proxy",
+          "is_proxy": true,
+          "presentation": "two_equal_halves_buy_green_sell_red"
+        },
+        "price_role": "canonical_spot_reference",
+        "market_scope": "single_spot_market",
+        "price_construction": "direct_spot_reference_series",
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_provider_v2",
+        "realism_note": "runtime Emulator market state; no Screen fixture history is injected",
+        "event_marker_policy": {
+          "technical_cross_anchor": "exact_event_price",
+          "fallback": "series_midpoint_or_candle_close",
+          "screen_a_and_b": "same_contract_anchor_policy"
+        }
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRECARGAR\\b",
+        "\\bREGRESAR\\b",
+        "RESUMEN DE",
+        "\\bINDICADORES\\b",
+        "\\bLEYENDA\\b",
+        "\\bDISPONIBLE\\b",
+        "PRECIO ACTUAL",
+        "Panel de presentaci?n",
+        "UPSTREAM NO CONFIGURADO",
+        "\\bLISTO\\b"
+      ]
+    },
+    "asset": "vr1/en/c1-prices-screen-a.png",
+    "asset_sha256": "b64b8a2a0ccb0b601bc30800d5f1870b2ce42626fa25fb043e89743b5defd7ae"
+  },
+  {
+    "family": "C1",
+    "screen": "B",
+    "language": "en",
+    "name": "c1-prices-screen-b-01.png",
+    "resolution": [
+      1887,
+      909
+    ],
+    "reference": "vr1/es/c1-prices-screen-b-01.png",
+    "runtime_url": "http://127.0.0.1:18768/prices/analysis?lang=en",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nANÁLISIS TÉCNICO FUNDAMENTAL\nPrecios\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n1m\n5m\n15m\n4h\n← REGRESAR\n↻ RECARGAR\nSINTÉTICO\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:00:00 de 01/09/2026\n1. MACD (12, 26, 9)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−10k\n0\nMACD\nSEÑAL\nHISTOGRAMA\nUTC\n2. RSI (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n50\nRSI\nUTC\n3. TSI (25, 13)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−50\n0\n50\nTSI\nUTC\n4. ADX / DI+ / DI- (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n50\nADX\nDI+\nDI-\nUTC\n5. STOCHASTIC (14, 3, 3)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n50\n100\n%K\n%D\nUTC\n6. WILLIAMS %R (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−100\n−50\n0\nWILLIAMS %R\nUTC\n7. CCI (20)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−500\n0\nCCI\nUTC\n8. ATR (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n1000\n2000\n3000\n4000\nATR\nUTC\n9. MFI (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n20\n40\n60\n80\nMFI\nUTC\n10. DISTANCIA WASSERSTEIN\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.01\n0.02\nDISTANCIA WASSERSTEIN\nUTC\n11. BOLLINGER BAND WIDTH (20, 2)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.5\nBBW\nUTC\nINDICADORES · SCREEN B\nDERIVED ANALYSIS\nADX / DI+ / DI- (14)\nBollinger Band Width (20, 2)\nIMPULSO\nMACD (12, 26, 9)\nRSI (14)\nTSI (25, 13)\nStochastic (14, 3, 3)\nWilliams %R (14)\nCCI (20)\nVOLATILIDAD\nATR (14)\nDistancia Wasserstein\nVOLUME FLOW\nMFI (14)\nRESUMEN DE INDICADORES\nINDICADOR\nVALOR\nSEÑAL\nFUERZA\nTENDENCIA\nMACD (12,26,9)\n-1,302\nALCISTA\nADX (14)\n43.96\nTENDENCIA\nIMPULSO\nRSI (14)\n40.58\nNORMAL BEARISH\nTSI (25,13)\n-32.33\nNORMAL BEARISH\nESTOCÁSTICO (14,3,3)\n93.67\nALCISTA\nWILLIAMS %R (14)\n-2.15\nOVERBOUGHT\nCCI (20)\n83.83\nNEUTRAL\nMFI (14)\n73.97\nNEUTRAL\nVOLATILIDAD\nATR (14)\n526.47\nMODERADA\nANCHO DE BANDAS DE BOLLINGER (20,2)\n0.036\nDISPONIBLE\nDISTRIBUCIÓN Y FLUJO\nDISTANCIA WASSERSTEIN\n0.005\nDISPONIBLE\nLEYENDA DE FUERZA\nMUY FUERTE\nFUERTE\nMODERADA\nDÉBIL\nMUY DÉBIL\n\nBasado en la dirección del indicador y la fuerza relativa actual.\n\nLos valores pueden cambiar con el próximo cierre de vela.\n\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "9ebc65071ef8e6299c99c48b29ef50c58be4bc26a5be75f17dfe0cb2dd7dbe91",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "MACD",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SEÑAL",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "HISTOGRAMA",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RSI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "TSI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ADX",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "DI+",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "DI-",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "%K",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "%D",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "WILLIAMS %R",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CCI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ATR",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "MFI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "DISTANCIA WASSERSTEIN",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BBW",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nFUNDAMENTAL TECHNICAL ANALYSIS\nPrices\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n1m\n5m\n15m\n4h\n← BACK\n↻ RELOAD\nSYNTHETIC\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:00:00 de 01/09/2026\n1. MACD (12, 26, 9)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−10k\n0\nMACD\nSIGNAL\nHISTOGRAM\nUTC\n2. RSI (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n50\nRSI\nUTC\n3. TSI (25, 13)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−50\n0\n50\nTSI\nUTC\n4. ADX / DI+ / DI- (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n50\nADX\nDI+\nDI-\nUTC\n5. STOCHASTIC (14, 3, 3)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n50\n100\n%K\n%D\nUTC\n6. WILLIAMS %R (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−100\n−50\n0\nWILLIAMS %R\nUTC\n7. CCI (20)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−500\n0\nCCI\nUTC\n8. ATR (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n1000\n2000\n3000\n4000\nATR\nUTC\n9. MFI (14)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n20\n40\n60\n80\nMFI\nUTC\n10. WASSERSTEIN DISTANCE\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.01\n0.02\nWASSERSTEIN DISTANCE\nUTC\n11. BOLLINGER BAND WIDTH (20, 2)\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.5\nBBW\nUTC\nINDICATORS · SCREEN B\nDERIVED ANALYSIS\nADX / DI+ / DI- (14)\nBollinger Band Width (20, 2)\nMOMENTUM\nMACD (12, 26, 9)\nRSI (14)\nTSI (25, 13)\nStochastic (14, 3, 3)\nWilliams %R (14)\nCCI (20)\nVOLATILITY\nATR (14)\nWasserstein Distance\nVOLUME FLOW\nMFI (14)\nINDICATOR SUMMARY\nINDICATOR\nVALUE\nSIGNAL\nSTRENGTH\nTREND\nMACD (12,26,9)\n-1,302\nBULLISH\nADX (14)\n43.96\nTREND\nMOMENTUM\nRSI (14)\n40.58\nNORMAL BEARISH\nTSI (25,13)\n-32.33\nNORMAL BEARISH\nSTOCHASTIC (14,3,3)\n93.67\nBULLISH\nWILLIAMS %R (14)\n-2.15\nOVERBOUGHT\nCCI (20)\n83.83\nNEUTRAL\nMFI (14)\n73.97\nNEUTRAL\nVOLATILITY\nATR (14)\n526.47\nMODERATE\nBOLLINGER BAND WIDTH (20,2)\n0.036\nAVAILABLE\nDISTRIBUTION & FLOW\nWASSERSTEIN DISTANCE\n0.005\nAVAILABLE\nSTRENGTH LEGEND\nVERY STRONG\nSTRONG\nMODERATE\nWEAK\nVERY WEAK\n\nBased on the indicator direction and current relative strength.\n\nValues can change with the next candle close.\n\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "9ebc65071ef8e6299c99c48b29ef50c58be4bc26a5be75f17dfe0cb2dd7dbe91",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "MACD",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SIGNAL",
+                "points": 120
+              },
+              {
+                "type": "bar",
+                "name": "HISTOGRAM",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RSI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "TSI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ADX",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "DI+",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "DI-",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "%K",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "%D",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "WILLIAMS %R",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CCI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ATR",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "MFI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "WASSERSTEIN DISTANCE",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BBW",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\prices_VR1_FINAL.json",
+      "sha256": "cd3c238d64e0a24f06c2f7c20fdc631fcbaab977c58b5a34b7d6336ce59da8e5",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "default_market": "spot",
+        "available_markets": [
+          "spot"
+        ],
+        "default_timeframe": "15m",
+        "available_timeframes": [
+          "1m",
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "performance_basis": "market_returns",
+        "symbol": "BTCUSDT",
+        "base_asset": "BTC",
+        "quote_asset": "USDT",
+        "exchange": "Binance",
+        "provider": null,
+        "units": {
+          "price": "USDT",
+          "volume": "USDT_notional",
+          "returns": "decimal"
+        },
+        "refresh_policy": {
+          "mode": "bootstrap",
+          "contract": "atomic_file_replace"
+        },
+        "history_policy": {
+          "calculation": "full_available_history",
+          "presentation": "tail_window",
+          "default_display_window": 120
+        },
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788293139,
+        "generated_at": "2026-09-01T20:05:39+00:00",
+        "selected_data_as_of": "2026-09-01T20:00:00+00:00",
+        "data_as_of": "2026-09-01T20:00:00+00:00",
+        "updated_at": null,
+        "cross_detection_policy": {
+          "moving_average_series": [
+            "ema_9",
+            "ema_21",
+            "sma_20",
+            "sma_50",
+            "wma_20",
+            "wma_50"
+          ],
+          "pair_generation": "same_family_only",
+          "moving_average_pair_count": 3,
+          "cross_rule": {
+            "above": "previous_difference <= 0 and current_difference > 0",
+            "below": "previous_difference >= 0 and current_difference < 0"
+          },
+          "channel_pairs": [
+            {
+              "first_series": "regression_channel.middle",
+              "second_series": "bollinger_bands.middle"
+            }
+          ],
+          "moving_average_families": {
+            "EMA": [
+              "ema_9",
+              "ema_21"
+            ],
+            "SMA": [
+              "sma_20",
+              "sma_50"
+            ],
+            "WMA": [
+              "wma_20",
+              "wma_50"
+            ]
+          },
+          "cross_family_pairs_allowed": false
+        },
+        "regression_channel_policy": {
+          "window": 100,
+          "deviation_multiplier": 2.0,
+          "price_field": "close",
+          "fit": "rolling_ordinary_least_squares",
+          "width_basis": "population_standard_deviation_of_residuals"
+        },
+        "volume_side_policy": {
+          "unit": "USD",
+          "method": "cvd_taker_buy_sell_when_aligned_else_candle_position_proxy",
+          "is_proxy": true,
+          "presentation": "two_equal_halves_buy_green_sell_red"
+        },
+        "price_role": "canonical_spot_reference",
+        "market_scope": "single_spot_market",
+        "price_construction": "direct_spot_reference_series",
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_provider_v2",
+        "realism_note": "runtime Emulator market state; no Screen fixture history is injected",
+        "event_marker_policy": {
+          "technical_cross_anchor": "exact_event_price",
+          "fallback": "series_midpoint_or_candle_close",
+          "screen_a_and_b": "same_contract_anchor_policy"
+        }
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRECARGAR\\b",
+        "\\bREGRESAR\\b",
+        "RESUMEN DE",
+        "\\bINDICADORES\\b",
+        "\\bLEYENDA\\b",
+        "\\bDISPONIBLE\\b",
+        "PRECIO ACTUAL",
+        "Panel de presentaci?n",
+        "UPSTREAM NO CONFIGURADO",
+        "\\bLISTO\\b"
+      ]
+    },
+    "asset": "vr1/en/c1-prices-screen-b-01.png",
+    "asset_sha256": "55cd3777bcfb6095bb3ab50e897943dfd53eeb48d8dbd89e3dca30caaa06d086"
+  },
+  {
+    "family": "C2",
+    "screen": "A",
+    "language": "en",
+    "name": "c2-cvd-order-flow-screen-a.png",
+    "resolution": [
+      1876,
+      908
+    ],
+    "reference": "vr1/es/c2-cvd-order-flow-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/cvd-orderflow?lang=en",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nCVD & ORDER FLOW\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n5m\n15m\n4h\nANÁLISIS DE CVD Y FLUJO DE ÓRDENES ↗\n↻ RECARGAR\nSINTÉTICO\nPARCIAL\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:01:14 de 01/09/2026\nDELTA 4H\ni\n846.58M USD\nPOSITIVO\nCOMPRA/VENTA\ni\n1.072\nCOMPRADOR\nParticipación compradora 0.51729\nRATIO DE VOLUMEN FUTURES VS SPOT\ni\n1.603\nFUTURES_DOMINANTE\nVolumen Futures USD 15.08B USD\nEFICIENCIA DE FLUJO\ni\n0.68587\nALTO\nVWAP 4H\ni\n101.25K USD\nPARCIAL\nDESEQUILIBRIO DE ORDER FLOW\ni\n0.03458\nNEUTRAL\nCVD SPOT\ni\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−40B\n−38B\n−36B\nFLUJO SPOT\ni\nBUY 60.2%\nSELL 39.8%\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−50\n0\n50\nNET +20.4%   ·   EXCHANGE —   ·   TF 15m\nCVD FUTURES / PERPETUALES\ni\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−10B\n−5B\nFLUJO FUTURES\ni\nBUY 48.6%\nSELL 51.4%\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−50\n0\n50\nNET -2.8%   ·   EXCHANGE —   ·   TF 15m\nINDICATORS · SCREEN A\nTENDENCIA · SOBRE CVD\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "adafa7a53f5cb566d74bf43841fe3efbf2fa3dc0990479787bc9a659cf99016a",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "CVD",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_9",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_21",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_50",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_50",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "NET +20.4%   ·   EXCHANGE —   ·   TF 15m"
+            ],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "FLUJO COMPRADOR",
+                "points": 1
+              },
+              {
+                "type": "bar",
+                "name": "FLUJO VENDEDOR",
+                "points": 1
+              },
+              {
+                "type": "scatter",
+                "name": "HISTÓRICO DE FLUJO NETO",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "CVD",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_9",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_21",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_50",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_50",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "NET -2.8%   ·   EXCHANGE —   ·   TF 15m"
+            ],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "FLUJO COMPRADOR",
+                "points": 1
+              },
+              {
+                "type": "bar",
+                "name": "FLUJO VENDEDOR",
+                "points": 1
+              },
+              {
+                "type": "scatter",
+                "name": "HISTÓRICO DE FLUJO NETO",
+                "points": 220
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nCVD & ORDER FLOW\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n5m\n15m\n4h\nCVD & ORDER FLOW ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC\nPARTIAL\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:01:14 de 01/09/2026\nDELTA 4H\ni\n846.58M USD\nPOSITIVE\nBUY/SELL\ni\n1.072\nBUYING\nBuy Share 0.51729\nFUTURES VS SPOT VOLUME RATIO\ni\n1.603\nFUTURES_DOMINANT\nFutures Volume Usd 15.08B USD\nFLOW EFFICIENCY\ni\n0.68587\nHIGH\nVWAP 4H\ni\n101.25K USD\nPARTIAL\nORDER FLOW IMBALANCE\ni\n0.03458\nNEUTRAL\nCVD SPOT\ni\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−40B\n−38B\n−36B\nSPOT FLOW\ni\nBUY 60.2%\nSELL 39.8%\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−50\n0\n50\nNET +20.4%   ·   EXCHANGE —   ·   TF 15m\nCVD FUTURES / PERPETUALS\ni\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−10B\n−5B\nFUTURES FLOW\ni\nBUY 48.6%\nSELL 51.4%\n18:00Aug 30, 2026\n00:00Aug 31, 2026\n06:00\n12:00\n18:00\n00:00Sep 1, 2026\n06:00\n12:00\n18:00\n−50\n0\n50\nNET -2.8%   ·   EXCHANGE —   ·   TF 15m\nINDICATORS · SCREEN A\nTREND · ON CVD\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "adafa7a53f5cb566d74bf43841fe3efbf2fa3dc0990479787bc9a659cf99016a",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "CVD",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_9",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_21",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_50",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_50",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "NET +20.4%   ·   EXCHANGE —   ·   TF 15m"
+            ],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "BUY FLOW",
+                "points": 1
+              },
+              {
+                "type": "bar",
+                "name": "SELL FLOW",
+                "points": 1
+              },
+              {
+                "type": "scatter",
+                "name": "NET FLOW HISTORY",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "CVD",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_9",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "EMA_21",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "SMA_50",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_20",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "WMA_50",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [
+              "NET -2.8%   ·   EXCHANGE —   ·   TF 15m"
+            ],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "BUY FLOW",
+                "points": 1
+              },
+              {
+                "type": "bar",
+                "name": "SELL FLOW",
+                "points": 1
+              },
+              {
+                "type": "scatter",
+                "name": "NET FLOW HISTORY",
+                "points": 220
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\cvd_volume_orderflow_VR1_FINAL.json",
+      "sha256": "d2db32c1e4c61cfc43ba71d78ca2f67c79115d41799f894229c449927c176f0b",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "base_asset": "BTC",
+        "pair_symbol": "BTCUSDT",
+        "markets": [
+          "spot",
+          "futures"
+        ],
+        "timeframes": [
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788292874,
+        "processing_timestamp": 1788292891,
+        "classification_timestamp": 1788292874,
+        "data_as_of": 1788292874,
+        "presentation_default_market": "spot",
+        "presentation_default_timeframe": "15m",
+        "display_point_limit": 220,
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_provider_v2",
+        "realism_note": "runtime Emulator aggressor-flow state; no Screen fixture history is injected",
+        "event_marker_policy": {
+          "anchor": "exact_interpolated_cross",
+          "timestamp_field": "event_timestamp_exact",
+          "value_field": "event_value_exact",
+          "hmi_offset": "none"
+        },
+        "screen_a_overlay_policy": {
+          "moving_averages_per_family": 2,
+          "moving_average_series": [
+            "ema_9",
+            "ema_21",
+            "sma_20",
+            "sma_50",
+            "wma_20",
+            "wma_50"
+          ]
+        },
+        "screen_revision": "CVD_NATIVE_SCREEN_B_V4_RENDER_CLEAN"
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRECARGAR\\b",
+        "\\bREGRESAR\\b",
+        "RESUMEN DE",
+        "\\bINDICADORES\\b",
+        "\\bLEYENDA\\b",
+        "\\bDISPONIBLE\\b",
+        "PRECIO ACTUAL",
+        "Panel de presentaci?n",
+        "UPSTREAM NO CONFIGURADO",
+        "\\bLISTO\\b"
+      ]
+    },
+    "asset": "vr1/en/c2-cvd-order-flow-screen-a.png",
+    "asset_sha256": "b382632d4cfc519e51fca910280d100454eb29f98234e45040bfadeb44886429"
+  },
+  {
+    "family": "C2",
+    "screen": "B",
+    "language": "en",
+    "name": "c2-cvd-order-flow-screen-b-01.png",
+    "resolution": [
+      1877,
+      908
+    ],
+    "reference": "vr1/es/c2-cvd-order-flow-screen-b-01.png",
+    "runtime_url": "http://127.0.0.1:18768/cvd-orderflow/analysis?lang=en",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nANÁLISIS TÉCNICO FUNDAMENTAL\nCVD & ORDER FLOW\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n5m\n15m\n4h\n← REGRESAR\n↻ RECARGAR\nSINTÉTICO\nPARCIAL\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:01:14 de 01/09/2026\nCVD SPOT · CVD SLOPE / ACCELERATION\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−4\n−2\n0\n2\nSlope\nAcceleration\nUTC\nCVD SPOT · DELTA Z-SCORE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nZscore\nUTC\nCVD SPOT · BUY / SELL IMBALANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−1\n−0.5\n0\n0.5\n1\nImbalance\nUTC\nCVD SPOT · PRICE ↔ CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−4\n−2\n0\n2\n4\nDivergence\nUTC\nCVD SPOT · SPOT ↔ FUTURES CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nDivergence\nUTC\nCVD SPOT · WASSERSTEIN DISTANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n50M\n100M\n150M\n200M\nDistancia Wasserstein\nUTC\nCVD FUTURES / PERPETUALS · CVD SLOPE / ACCELERATION\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\n4\nSlope\nAcceleration\nUTC\nCVD FUTURES / PERPETUALS · DELTA Z-SCORE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nZscore\nUTC\nCVD FUTURES / PERPETUALS · BUY / SELL IMBALANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−1\n−0.5\n0\n0.5\n1\nImbalance\nUTC\nCVD FUTURES / PERPETUALS · PRICE ↔ CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−5\n0\nDivergence\nUTC\nCVD FUTURES / PERPETUALS · SPOT ↔ FUTURES CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nDivergence\nUTC\nCVD FUTURES / PERPETUALS · WASSERSTEIN DISTANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n100M\n200M\n300M\nDistancia Wasserstein\nUTC\nINDICADORES · SCREEN B\nSelect the native Order Flow panels shown on this screen.\nDINÁMICA DEL FLUJO\n●\nCVD Slope / Acceleration\n●\nDelta Z-Score\n●\nBuy/Sell Imbalance\nDIVERGENCIAS\n●\nPrice ↔ CVD Divergence\n●\nSpot ↔ Futures CVD Divergence\nCAMBIO DE RÉGIMEN\n●\nWasserstein Distance\nRESUMEN · CVD SPOT\nINDICADOR\nVALOR\nSEÑAL\nFUERZA\nDINÁMICA DEL FLUJO\nPendiente / Aceleración CVD\n-0.261\nnegative\nDelta Z-Score\n-0.261\nnegative\nDesequilibrio Compra/Venta\n0.204\nneutral\nDIVERGENCIAS\nPrecio ↔ Divergencia CVD\n0.039\nneutral\nDivergencia CVD Spot ↔ Futures\n0.158\nneutral\nCAMBIO DE RÉGIMEN\nDistancia Wasserstein\n69213230.624\npositive\nRESUMEN · CVD FUTURES\nINDICADOR\nVALOR\nSEÑAL\nFUERZA\nDINÁMICA DEL FLUJO\nPendiente / Aceleración CVD\n-0.419\nnegative\nDelta Z-Score\n-0.419\nnegative\nDesequilibrio Compra/Venta\n-0.028\nneutral\nDIVERGENCIAS\nPrecio ↔ Divergencia CVD\n—\nunavailable\nDivergencia CVD Spot ↔ Futures\n-0.158\nneutral\nCAMBIO DE RÉGIMEN\nDistancia Wasserstein\n59572902.367\npositive\nLEYENDA DE FUERZA\nMUY FUERTE\nFUERTE\nMODERADA\nDÉBIL\nMUY DÉBIL\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "80744476d0f416754b065e96d7c43c4293a3052cfeceae817f96517f2499c7f4",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Slope",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "Acceleration",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Zscore",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Imbalance",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Distancia Wasserstein",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Slope",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "Acceleration",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Zscore",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Imbalance",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Distancia Wasserstein",
+                "points": 220
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nFUNDAMENTAL TECHNICAL ANALYSIS\nCVD & ORDER FLOW\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n5m\n15m\n4h\n← BACK\n↻ RELOAD\nSYNTHETIC\nPARTIAL\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:01:14 de 01/09/2026\nCVD SPOT · CVD SLOPE / ACCELERATION\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−4\n−2\n0\n2\nSlope\nAcceleration\nUTC\nCVD SPOT · DELTA Z-SCORE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nZscore\nUTC\nCVD SPOT · BUY / SELL IMBALANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−1\n−0.5\n0\n0.5\n1\nImbalance\nUTC\nCVD SPOT · PRICE ↔ CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−4\n−2\n0\n2\n4\nDivergence\nUTC\nCVD SPOT · SPOT ↔ FUTURES CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nDivergence\nUTC\nCVD SPOT · WASSERSTEIN DISTANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n50M\n100M\n150M\n200M\nWasserstein Distance\nUTC\nCVD FUTURES / PERPETUALS · CVD SLOPE / ACCELERATION\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\n4\nSlope\nAcceleration\nUTC\nCVD FUTURES / PERPETUALS · DELTA Z-SCORE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nZscore\nUTC\nCVD FUTURES / PERPETUALS · BUY / SELL IMBALANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−1\n−0.5\n0\n0.5\n1\nImbalance\nUTC\nCVD FUTURES / PERPETUALS · PRICE ↔ CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−5\n0\nDivergence\nUTC\nCVD FUTURES / PERPETUALS · SPOT ↔ FUTURES CVD DIVERGENCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n−2\n0\n2\nDivergence\nUTC\nCVD FUTURES / PERPETUALS · WASSERSTEIN DISTANCE\nI\n00:0031/08\n12:0031/08\n00:0001/09\n12:0001/09\n100M\n200M\n300M\nWasserstein Distance\nUTC\nINDICATORS · SCREEN B\nSelect the native Order Flow panels shown on this screen.\nFLOW DYNAMICS\n●\nCVD Slope / Acceleration\n●\nDelta Z-Score\n●\nBuy/Sell Imbalance\nDIVERGENCES\n●\nPrice ↔ CVD Divergence\n●\nSpot ↔ Futures CVD Divergence\nREGIME CHANGE\n●\nWasserstein Distance\nSUMMARY · CVD SPOT\nINDICATOR\nVALUE\nSIGNAL\nSTRENGTH\nFLOW DYNAMICS\nCVD Slope / Acceleration\n-0.261\nnegative\nDelta Z-Score\n-0.261\nnegative\nBuy/Sell Imbalance\n0.204\nneutral\nDIVERGENCES\nPrice ↔ CVD Divergence\n0.039\nneutral\nSpot ↔ Futures CVD Divergence\n0.158\nneutral\nREGIME CHANGE\nWasserstein Distance\n69213230.624\npositive\nSUMMARY · CVD FUTURES\nINDICATOR\nVALUE\nSIGNAL\nSTRENGTH\nFLOW DYNAMICS\nCVD Slope / Acceleration\n-0.419\nnegative\nDelta Z-Score\n-0.419\nnegative\nBuy/Sell Imbalance\n-0.028\nneutral\nDIVERGENCES\nPrice ↔ CVD Divergence\n—\nunavailable\nSpot ↔ Futures CVD Divergence\n-0.158\nneutral\nREGIME CHANGE\nWasserstein Distance\n59572902.367\npositive\nSTRENGTH LEGEND\nVERY STRONG\nSTRONG\nMODERATE\nWEAK\nVERY WEAK\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "80744476d0f416754b065e96d7c43c4293a3052cfeceae817f96517f2499c7f4",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Slope",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "Acceleration",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Zscore",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Imbalance",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Wasserstein Distance",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Slope",
+                "points": 220
+              },
+              {
+                "type": "scatter",
+                "name": "Acceleration",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Zscore",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Imbalance",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Divergence",
+                "points": 220
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Wasserstein Distance",
+                "points": 220
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\cvd_volume_orderflow_VR1_FINAL.json",
+      "sha256": "d2db32c1e4c61cfc43ba71d78ca2f67c79115d41799f894229c449927c176f0b",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "base_asset": "BTC",
+        "pair_symbol": "BTCUSDT",
+        "markets": [
+          "spot",
+          "futures"
+        ],
+        "timeframes": [
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788292874,
+        "processing_timestamp": 1788292891,
+        "classification_timestamp": 1788292874,
+        "data_as_of": 1788292874,
+        "presentation_default_market": "spot",
+        "presentation_default_timeframe": "15m",
+        "display_point_limit": 220,
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_provider_v2",
+        "realism_note": "runtime Emulator aggressor-flow state; no Screen fixture history is injected",
+        "event_marker_policy": {
+          "anchor": "exact_interpolated_cross",
+          "timestamp_field": "event_timestamp_exact",
+          "value_field": "event_value_exact",
+          "hmi_offset": "none"
+        },
+        "screen_a_overlay_policy": {
+          "moving_averages_per_family": 2,
+          "moving_average_series": [
+            "ema_9",
+            "ema_21",
+            "sma_20",
+            "sma_50",
+            "wma_20",
+            "wma_50"
+          ]
+        },
+        "screen_revision": "CVD_NATIVE_SCREEN_B_V4_RENDER_CLEAN"
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRECARGAR\\b",
+        "\\bREGRESAR\\b",
+        "RESUMEN DE",
+        "\\bINDICADORES\\b",
+        "\\bLEYENDA\\b",
+        "\\bDISPONIBLE\\b",
+        "PRECIO ACTUAL",
+        "Panel de presentaci?n",
+        "UPSTREAM NO CONFIGURADO",
+        "\\bLISTO\\b"
+      ]
+    },
+    "asset": "vr1/en/c2-cvd-order-flow-screen-b-01.png",
+    "asset_sha256": "823a9e39096c3e3f727b94ce0935114bdc78d749e56ed7b7ac26e575c570fdb6"
+  },
+  {
+    "family": "C3",
+    "screen": "A",
+    "language": "es",
+    "name": "c3-open-interest-funding-screen-a.png",
+    "resolution": [
+      1881,
+      911
+    ],
+    "reference": "vr1/en/c3-open-interest-funding-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/open-interest-and-funding?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nOpen Interest & Funding\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n5m\n15m\n4h\nOPEN INTEREST ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:01:14 de 01/09/2026\nOPEN INTEREST USD\nI\n34.97B\nUSD\nCONTRACTING\nOI CHANGE 24H\nI\n-6.41B\nUSD\n-2.496%\nOI FUNDING STATE\nI\ncontracting / positive\npositive_funding_contraction\nPROVIDER AVAILABILITY\nI\n1/3\npartial\nFUNDING RATE\nI\n0.0000%\nPOSITIVE\nEST. LEVERAGE RATIO\nI\n0.015\nOPEN INTEREST\ni\nAug 3118:00\nSep 0100:00\nSep 0106:00\nSep 0112:00\nSep 0118:00\n30B\n35B\n40B\n45B\n50B\nBB MIDDLE\nBB LOWER\nBB UPPER\nWMA 50\nWMA 20\nSMA 50\nSMA 20\nEMA 21\nEMA 9\nOPEN INTEREST OHLC\nUSD\nINDICATORS (Select to display)\ni\nSelect indicators and open the analysis screen.\nTREND\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nBANDS & CHANNELS · ON OPEN INTEREST\nBollinger Bands (20, 2)\nRegression Channel\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "3739390ec11b286581728aca94a4e597ff8bf3894c181a8a97cb3491fc43a8eb",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "OPEN INTEREST OHLC",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 9",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 21",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB UPPER",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB LOWER",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB MIDDLE",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nOpen Interest & Funding\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n5m\n15m\n4h\nANÁLISIS DE OPEN INTEREST ↗\n↻ RECARGAR\nSINTÉTICO\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:01:14 de 01/09/2026\nOPEN INTEREST USD\nI\n34.97B\nUSD\nCONTRACCIÓN\nCAMBIO OI 24H\nI\n-6.41B\nUSD\n-2.496%\nESTADO OI / FUNDING\nI\ncontracción / positivo\npositive_funding_contraction\nDISPONIBILIDAD DE PROVEEDORES\nI\n1/3\nparcial\nTASA DE FUNDING\nI\n0.0000%\nPOSITIVO\nRATIO DE APALANCAMIENTO EST.\nI\n0.015\nOPEN INTEREST\ni\nAug 3118:00\nSep 0100:00\nSep 0106:00\nSep 0112:00\nSep 0118:00\n30B\n35B\n40B\n45B\n50B\nBB CENTRAL\nBB INFERIOR\nBB SUPERIOR\nWMA 50\nWMA 20\nSMA 50\nSMA 20\nEMA 21\nEMA 9\nOPEN INTEREST OHLC\nUSD\nINDICADORES (Selecciona para mostrar)\ni\nSelecciona indicadores y abre la pantalla de análisis.\nTENDENCIA\nEMA 9\nEMA 21\nSMA 20\nSMA 50\nWMA 20\nWMA 50\nBANDAS Y CANALES · SOBRE OPEN INTEREST\nBollinger Bands (20, 2)\nCanal de Regresión\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "3739390ec11b286581728aca94a4e597ff8bf3894c181a8a97cb3491fc43a8eb",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "traces": [
+              {
+                "type": "candlestick",
+                "name": "OPEN INTEREST OHLC",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 9",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "EMA 21",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "SMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 20",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "WMA 50",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB SUPERIOR",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB INFERIOR",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "BB CENTRAL",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\open_interest_and_funding_VR1_FINAL.json",
+      "sha256": "e7f849721eef406df7478d66e053dd590ce0ce4e2e5f980ef0d7242eb842cf04",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "default_market": "all_exchanges",
+        "available_markets": [
+          "all_exchanges"
+        ],
+        "default_timeframe": "15m",
+        "available_timeframes": [
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "asset": "BTC",
+        "exchange_scope": "all_exchanges",
+        "primary_provider": "coinglass",
+        "confirmation_providers": [
+          "glassnode"
+        ],
+        "units": {
+          "open_interest": "USD",
+          "funding_rate": "percent_points"
+        },
+        "history_policy": {
+          "calculation": "full_available_history",
+          "presentation": "tail_window",
+          "default_display_window": 120
+        },
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788292874,
+        "generated_at": "2026-09-01T20:01:19Z",
+        "data_as_of": 1788292874,
+        "analysis_profile": "ohlc_without_volume",
+        "volume_enabled": false,
+        "regression_channel_policy": {
+          "window": 100,
+          "deviation_multiplier": 2.0,
+          "field": "close",
+          "fit": "rolling_ordinary_least_squares",
+          "width_basis": "population_standard_deviation_of_residuals"
+        },
+        "wasserstein_policy": {
+          "recent_window_returns": 20,
+          "reference_window_returns": 100,
+          "field": "close",
+          "return_type": "log_return"
+        },
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_emulator_v1",
+        "realism_note": "deterministic provider-shaped emulator data; CoinGlass OI/Funding plus Glassnode ELR",
+        "screen_b_native_oi_policy": {
+          "status": "synthetic_emulator",
+          "hmi_computes_market_indicators": false,
+          "processing_outputs_required": [
+            "oi_roc",
+            "oi_slope_pct",
+            "oi_acceleration_pct",
+            "oi_zscore",
+            "oi_percentile",
+            "price_oi_regime",
+            "price_oi_divergence",
+            "funding_oi_crowding",
+            "wasserstein_distance"
+          ],
+          "market_api_primitives": [
+            "aggregated_open_interest_ohlc",
+            "oi_weighted_funding_rate_ohlc",
+            "futures_estimated_leverage_ratio"
+          ],
+          "note": "Processing owns all OI/Funding calculations; HMI renders contracted outputs only."
+        },
+        "screen_revision": "oi_native_screen_b_v1"
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c3-open-interest-funding-screen-a.png",
+    "asset_sha256": "fbb357c623f420b3213cdfdac35683a8c7b5687a0c0500b86231f745c75a041f"
+  },
+  {
+    "family": "C4",
+    "screen": "A",
+    "language": "es",
+    "name": "c4-etf-exchange-flows-screen-a.png",
+    "resolution": [
+      1879,
+      902
+    ],
+    "reference": "vr1/en/c4-etf-exchange-flows-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/etf-exchange-flows?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nETF & Exchange Flows\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n7D\n30D\nETF & CAPITAL FLOW ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC_CALIBRATED\nOK\nDATA AS OF\n00:00:00 de 30/08/2026\nETF NET FLOW\ni\n1.69B USD\nAVAILABLE\nTOTAL AUM\ni\n87.19B USD\nAVAILABLE\nCUMULATIVE ETF NET FLOW\ni\n7.77B USD\nAVAILABLE\nEXCHANGE INFLOW\ni\n6.32K BTC\nAVAILABLE\nEXCHANGE OUTFLOW\ni\n7.27K BTC\nAVAILABLE\nEXCHANGE BALANCE\ni\n2.350M BTC\nAVAILABLE\nGBTC PREMIUM\ni\n0.05%\nAVAILABLE\nEXCHANGE FLOW PRESSURE\ni\n-0.06985\nAVAILABLE\nETF Daily Net Flow\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n−100M\n0\n100M\n200M\n300M\nETF Flow by Provider\ni\nTicker\n\t\nFund Name\n\t\nProvider\n\t\nEndpoint Id\n\t\nStatus\n\t\nReason\n\t\nFlow Usd\n\t\nSigned Flow Share\n\nARKB\tARK 21Shares Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: 219056322.63655096 | Unit: USD\tStatus: available | Reason: None | Value: 0.11206896551724138 | Unit: ratio\nBITB\tBitwise Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: 151654377.2099199 | Unit: USD\tStatus: available | Reason: None | Value: 0.07758620689655173 | Unit: ratio\nBRRR\tCoinShares Valkyrie Bitcoin Fund\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: 67401945.42663106 | Unit: USD\tStatus: available | Reason: None | Value: 0.034482758620689655 | Unit: ratio\nEZBC\tFranklin Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: 50551459.0699733 | Unit: USD\tStatus: available | Reason: None | Value: 0.02586206896551724 | Unit: ratio\nFBTC\tFidelity Wise Origin Bitcoin Fund\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: 454963131.6297597 | Unit: USD\tStatus: available | Reason: None | Value: 0.2327586206896552 | Unit: ratio\nGBTC\tGrayscale Bitcoin Trust ETF\tcoinglass\tbitcoin_etf_list\tavailable\t—\tStatus: available | Reason: None | Value: -134803890.85326213 | Unit: USD\tStatus: available | Reason: None | Value: -0.06896551724137931 | Unit: ratio\nExchange Net Flow\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n0\n5k\n10k\nInflow\nOutflow\nNet Flow\nExchange Balance / Reserve\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n2,340,000\n2,345,000\n2,350,000\n2,355,000\n2,360,000\nEXCHANGE RESERVE / BALANCE (BTC)\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "57073f72ac669cee07466bc5cf264e26ed538a322f40e975596d87abe7e0430e",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Value",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Inflow",
+                "points": 30
+              },
+              {
+                "type": "bar",
+                "name": "Outflow",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Net Flow",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "EXCHANGE RESERVE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "FLOW MOMENTUM Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "ROLLING FLOW Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "PERSISTENCE SCORE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ZSCORE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BTC RETURN Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "ETF FLOW Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "DIVERGENCE SCORE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "PRESSURE",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "NETFLOW Z",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RESERVE CHANGE Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RESERVE ROC Z",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CAPITAL REGIME SCORE",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "WASSERSTEIN DISTANCE",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nETF & Flujos de Exchanges\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n7D\n30D\nANÁLISIS DE ETF Y FLUJOS DE CAPITAL ↗\n↻ RECARGAR\nSINTÉTICO_CALIBRADO\nOK\nDATOS AL\n00:00:00 de 30/08/2026\nFLUJO NETO ETF\ni\n1.69B USD\nDISPONIBLE\nAUM TOTAL\ni\n87.19B USD\nDISPONIBLE\nFLUJO NETO ETF ACUMULADO\ni\n7.77B USD\nDISPONIBLE\nENTRADA A EXCHANGES\ni\n6.32K BTC\nDISPONIBLE\nSALIDA DE EXCHANGES\ni\n7.27K BTC\nDISPONIBLE\nBALANCE DE EXCHANGES\ni\n2.350M BTC\nDISPONIBLE\nPRIMA GBTC\ni\n0.05%\nDISPONIBLE\nPRESIÓN DE FLUJO EN EXCHANGES\ni\n-0.06985\nDISPONIBLE\nFlujo Neto Diario ETF\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n−100M\n0\n100M\n200M\n300M\nFlujo ETF por Proveedor\ni\nTicker\n\t\nNombre del Fondo\n\t\nProveedor\n\t\nID Endpoint\n\t\nEstado\n\t\nMotivo\n\t\nFlujo USD\n\t\nParticipación de Flujo con Signo\n\nARKB\tARK 21Shares Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: 219056322.63655096 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: 0.11206896551724138 | Unidad: ratio\nBITB\tBitwise Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: 151654377.2099199 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: 0.07758620689655173 | Unidad: ratio\nBRRR\tCoinShares Valkyrie Bitcoin Fund\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: 67401945.42663106 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: 0.034482758620689655 | Unidad: ratio\nEZBC\tFranklin Bitcoin ETF\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: 50551459.0699733 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: 0.02586206896551724 | Unidad: ratio\nFBTC\tFidelity Wise Origin Bitcoin Fund\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: 454963131.6297597 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: 0.2327586206896552 | Unidad: ratio\nGBTC\tGrayscale Bitcoin Trust ETF\tcoinglass\tbitcoin_etf_list\tdisponible\t—\tEstado: disponible | Motivo: None | Valor: -134803890.85326213 | Unidad: USD\tEstado: disponible | Motivo: None | Valor: -0.06896551724137931 | Unidad: ratio\nFlujo neto de exchanges\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n0\n5k\n10k\nEntrada\nSalida\nFlujo neto\nBalance / reserva de exchanges\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n2,340,000\n2,345,000\n2,350,000\n2,355,000\n2,360,000\nRESERVA / BALANCE DE EXCHANGES (BTC)\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "57073f72ac669cee07466bc5cf264e26ed538a322f40e975596d87abe7e0430e",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Valor",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Entrada",
+                "points": 30
+              },
+              {
+                "type": "bar",
+                "name": "Salida",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Flujo neto",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RESERVA DE EXCHANGES",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "FLOW MOMENTUM Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "ROLLING FLOW Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "PERSISTENCE SCORE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ZSCORE",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BTC RETURN Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Z DE FLUJO ETF",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "PUNTUACIÓN DE DIVERGENCIA",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "PRESSURE",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "NETFLOW Z",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RESERVE CHANGE Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RESERVE ROC Z",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CAPITAL REGIME SCORE",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "DISTANCIA WASSERSTEIN",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\etf_exchange_flows_VR1_FINAL.json",
+      "sha256": "c7f519504369912cabeb8c0c26aab000dbfe0765bbc27559abffc52c21e6aed5",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "generated_at": "2026-08-30T23:31:41Z",
+        "processing_data_as_of": 1788048000,
+        "classification_data_as_of": 1788048000,
+        "data_as_of": 1788048000,
+        "selected_range": "30d",
+        "calculation_history": "processing_precomputed_only",
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "data_mode": "synthetic_calibrated",
+        "synthetic_fixture": false,
+        "realism_refactor_version": "exchange_realism_v2",
+        "realism_note": "provider-shaped ETF/exchange-flow emulator data; native capital-flow analytics are computed in Processing",
+        "analysis_contract": "capital_flow_analysis_v1",
+        "hmi_calculation": false,
+        "screen_revision": "ETF_NATIVE_CAPITAL_FLOW_B_V1",
+        "exchange_reserve_emulator_policy": {
+          "data_mode": "synthetic_emulator",
+          "points": 500,
+          "resolution": "1d",
+          "latest_value_btc": 2350007.6399584557,
+          "last_30d_min_btc": 2345099.3996396735,
+          "last_30d_max_btc": 2356537.7336096647,
+          "last_30d_range_btc": 11438.333969991188,
+          "real_market_calculation": false,
+          "purpose": "runtime emulator realism and contract validation"
+        }
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c4-etf-exchange-flows-screen-a.png",
+    "asset_sha256": "8ef56bbdc605e87c37ba73aad07b991612f84b04b9aed07147b67f455f2a287e"
+  },
+  {
+    "family": "C6",
+    "screen": "A",
+    "language": "es",
+    "name": "c6-volatility-market-regimes-screen-a.png",
+    "resolution": [
+      1880,
+      908
+    ],
+    "reference": "vr1/en/c6-volatility-market-regimes-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/volatility-market-regimes?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nVolatility & Market Regimes\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n7D\n30D\nVOLATILITY & REGIMES ANALYSIS ↗\n↻ RELOAD\nOK\nSYNTHETIC\nOK\nDATA AS OF\n23:29:43 de 30/08/2026\nCURRENT REGIME\ni\nNORMAL\nAVAILABLE\nREALIZED VOL 7D\ni\n85.9%\nAVAILABLE\nIMPLIED VOL / DVOL\ni\n55.2%\nAVAILABLE\nVOL RISK PREMIUM\ni\n-20.7\nAVAILABLE\n25Δ SKEW\ni\n-4.5\nAVAILABLE\nREGIME CONFIDENCE\ni\n40%\nAVAILABLE\nREALIZED VOLATILITY · RV7D / RV30D\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n40\n60\n80\n100\nRV 7D\nRV 30D\n%\nIMPLIED VOLATILITY · DVOL / IV1M\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n50\n60\n70\n80\nDVOL\nIV 1M\n%\nIMPLIED VS REALIZED · VRP\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n0\n50\nIV 1M\nRV 30D\nVRP\nIV TERM STRUCTURE\ni\n1W\n1M\n3M\n6M\n55\n60\n65\nCURRENT\nREFERENCE\nIV %\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "f1b7369a966bab118e8dff7cfd9d82f09e877b0e18afb734839017fd3f55b4c8",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RV 7D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV 30D",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "DVOL",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "IV 1M",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "IV 1M",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV 30D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "VRP",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CURRENT",
+                "points": 4
+              },
+              {
+                "type": "scatter",
+                "name": "REFERENCE",
+                "points": 4
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RV Z-Score",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Percentile",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Vrp",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "VRP Z-Score",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Term Slope",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Term Curvature",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Skew 25D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Upside IV",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Downside IV",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Vol-of-Vol",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV Acceleration",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Wasserstein",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Transition %",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nVolatilidad & Regímenes de Mercado\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n7D\n30D\nANÁLISIS DE VOLATILIDAD Y REGÍMENES ↗\n↻ RECARGAR\nOK\nSINTÉTICO\nOK\nDATOS AL\n23:29:43 de 30/08/2026\nRÉGIMEN ACTUAL\ni\nNORMAL\nDISPONIBLE\nVOLATILIDAD REALIZADA 7D\ni\n85.9%\nDISPONIBLE\nVOLATILIDAD IMPLÍCITA / DVOL\ni\n55.2%\nDISPONIBLE\nPRIMA DE RIESGO DE VOLATILIDAD\ni\n-20.7\nDISPONIBLE\nSKEW 25Δ\ni\n-4.5\nDISPONIBLE\nCONFIANZA DEL RÉGIMEN\ni\n40%\nDISPONIBLE\nVOLATILIDAD REALIZADA · RV7D / RV30D\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n40\n60\n80\n100\nRV 7D\nRV 30D\n%\nVOLATILIDAD IMPLÍCITA · DVOL / IV1M\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n50\n60\n70\n80\nDVOL\nIV 1M\n%\nIMPLÍCITA VS REALIZADA · VRP\ni\nAug 12026\nAug 4\nAug 7\nAug 10\nAug 13\nAug 16\nAug 19\nAug 22\nAug 25\nAug 28\n0\n50\nIV 1M\nRV 30D\nVRP\nESTRUCTURA TEMPORAL IV\ni\n1W\n1M\n3M\n6M\n55\n60\n65\nACTUAL\nREFERENCIA\nIV %\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "f1b7369a966bab118e8dff7cfd9d82f09e877b0e18afb734839017fd3f55b4c8",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RV 7D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV 30D",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "DVOL",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "IV 1M",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "IV 1M",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV 30D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "VRP",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "ACTUAL",
+                "points": 4
+              },
+              {
+                "type": "scatter",
+                "name": "REFERENCIA",
+                "points": 4
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RV Z-Score",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Percentile",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Vrp",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "VRP Z-Score",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Term Slope",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Term Curvature",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Skew 25D",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Upside IV",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Downside IV",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Vol-of-Vol",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "RV Acceleration",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Wasserstein",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Transition %",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\volatility_market_regimes_VR1_FINAL.json",
+      "sha256": "5d6a2abf1e2fdda8ba715cfa881665a7a917d3fdb4df34e756244129665110b1",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "symbol": "BTC",
+        "asset": "BTC",
+        "default_display_range": "30d",
+        "selected_display_range": "30d",
+        "available_display_ranges": [
+          "7d",
+          "30d"
+        ],
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "generated_at": "2026-08-30T23:29:48Z",
+        "data_as_of": 1788132583,
+        "units": {
+          "volatility": "percent",
+          "volatility_points": "vol_points",
+          "skew": "vol_points",
+          "probability": "percent"
+        },
+        "screen_a_policy": "native_volatility_structure_no_classical_ta",
+        "screen_b_policy": "processing_precomputed_native_volatility_analytics",
+        "hmi_recalculate": false,
+        "raw_provider_targets": {
+          "realized_volatility": "derived_from_prices",
+          "dvol": "glassnode.dvol_ohlc",
+          "implied_volatility": "derived_from_dvol",
+          "term_structure": "derived_from_dvol",
+          "skew": "derived_from_dvol"
+        }
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c6-volatility-market-regimes-screen-a.png",
+    "asset_sha256": "1eaf6a767608909e50145aa7acc6bf05b29874d851daeb746f83d5b498403bf0"
+  },
+  {
+    "family": "Grok",
+    "screen": "A",
+    "language": "en",
+    "name": "contextual-intelligence-grok-radar.png",
+    "resolution": [
+      1898,
+      906
+    ],
+    "reference": "vr1/es/contextual-intelligence-grok-radar.png",
+    "runtime_url": "http://127.0.0.1:18766/grok-radar?lang=en",
+    "runtime": "current Screen working tree; Grok NO_AUTHORIZED_UPSTREAM",
+    "languages": {
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nUNKNOWN\nSOURCE\nAUTO\nLIVE\nSINTÉTICO\nMERCADO\nCRYPTO\nASSET\nBTC\nDATOS AL\nGROK RADAR\nPanel de presentación aislado de adquisición externa.\nUPSTREAM NO CONFIGURADO\nLISTO\nNO DISPONIBLE · No hay un upstream autorizado configurado para este panel.\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "http_status": 200,
+        "refresh_disabled": true,
+        "graph_summary": []
+      },
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nUNKNOWN\nSOURCE\nAUTO\nLIVE\nSYNTHETIC\nMARKET\nCRYPTO\nASSET\nBTC\nDATA AS OF\nGROK RADAR\nIsolated presentation panel for external acquisition.\nUPSTREAM NOT CONFIGURED\nREADY\nUNAVAILABLE · No authorized upstream is configured for this panel.\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "http_status": 200,
+        "refresh_disabled": true,
+        "graph_summary": []
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "contract": null,
+      "state": "NO_AUTHORIZED_UPSTREAM",
+      "external_acquisition": false
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRECARGAR\\b",
+        "\\bREGRESAR\\b",
+        "RESUMEN DE",
+        "\\bINDICADORES\\b",
+        "\\bLEYENDA\\b",
+        "\\bDISPONIBLE\\b",
+        "PRECIO ACTUAL",
+        "Panel de presentaci?n",
+        "UPSTREAM NO CONFIGURADO",
+        "\\bLISTO\\b"
+      ]
+    },
+    "asset": "vr1/en/contextual-intelligence-grok-radar.png",
+    "asset_sha256": "87c77e5274d6d25d67cdeb596eb87ddd5fac7d51ffc00cd934a4373612cd52aa"
+  },
+  {
+    "family": "C3",
+    "screen": "B",
+    "language": "es",
+    "name": "c3-open-interest-funding-screen-b.png",
+    "resolution": [
+      1881,
+      911
+    ],
+    "reference": "vr1/en/c3-open-interest-funding-screen-b.png",
+    "runtime_url": "http://127.0.0.1:18768/open-interest-and-funding/analysis?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nFUNDAMENTAL TECHNICAL ANALYSIS\nOpen Interest & Funding\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n5m\n15m\n4h\n← BACK\n↻ RELOAD\nSYNTHETIC\nSYNTHETIC\nPARTIAL\nDATA AS OF\n20:01:14 de 01/09/2026\n1. OI ROC / SLOPE / ACCELERATION\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−20\n−10\n0\nOI ROC %\nOI SLOPE %\nOI ACCELERATION %\nUTC\n2. OI Z-SCORE / PERCENTILE\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−4\n−2\n0\n2\n0\n50\n100\nOI Z-SCORE\nOI PERCENTILE\nUTC\n3. PRICE × OPEN INTEREST REGIME\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\nBEAR EXP.\nLONG DELEV.\nNEUTRAL\nSHORT COVER\nBULL EXP.\nREGIME SCORE\nUTC\n4. PRICE ↔ OPEN INTEREST DIVERGENCE\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−5\n0\n5\nPRICE RETURN Z\nOI CHANGE Z\nDIVERGENCE SCORE\nUTC\n5. FUNDING × OPEN INTEREST CROWDING\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−4\n−2\n0\n2\nOI Z-SCORE\nFUNDING Z\nCROWDING SCORE\nUTC\n6. WASSERSTEIN / REGIME SHIFT\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.005\n0.01\n0.015\nWASSERSTEIN\nUTC\nINDICATORS · SCREEN B\nPARTICIPATION DYNAMICS\nOI ROC / Slope / Acceleration\nOI Z-Score / Percentile\nPRICE × PARTICIPATION\nPrice × OI Regime\nPrice ↔ OI Divergence\nLEVERAGE / REGIME CHANGE\nFunding × OI Crowding\nWasserstein / Regime Shift\nOPEN INTEREST\nINDICATOR SUMMARY\nINDICATOR\nVALUE\nSIGNAL\nSTRENGTH\nPARTICIPATION DYNAMICS\nOI ROC / SLOPE / ACCEL.\n1.80\nBULLISH\nOI Z-SCORE / PERCENTILE\n1.44\nBULLISH\nPRICE × PARTICIPATION\nPRICE × OI REGIME\n-1.00\nBEARISH\nPRICE ↔ OI DIVERGENCE\n1.04\nBULLISH\nLEVERAGE / CROWDING\nFUNDING × OI CROWDING\n1.07\nNEUTRAL\nREGIME CHANGE\nWASSERSTEIN / REGIME SHIFT\n0.008\nNEUTRAL\nSTRENGTH LEGEND\nVERY STRONG\nSTRONG\nMODERATE\nWEAK\nVERY WEAK\n\nBased on the indicator direction and current relative strength.\n\nValues can change with the next candle close.\n\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "7093565e8080234158a7cc4afa216e43e14fa9cf1b292951fee3955894bb2ff7",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "OI ROC %",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "OI SLOPE %",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "OI ACCELERATION %",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "OI Z-SCORE",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "OI PERCENTILE",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "REGIME SCORE",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "PRICE RETURN Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "OI CHANGE Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "DIVERGENCE SCORE",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "OI Z-SCORE",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "FUNDING Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "CROWDING SCORE",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "WASSERSTEIN",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nANÁLISIS TÉCNICO FUNDAMENTAL\nOpen Interest & Funding\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n5m\n15m\n4h\n← REGRESAR\n↻ RECARGAR\nSINTÉTICO\nSINTÉTICO\nPARCIAL\nDATOS AL\n20:01:14 de 01/09/2026\n1. OI ROC / PENDIENTE / ACELERACIÓN\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−20\n−10\n0\nTASA DE CAMBIO DEL OI %\nPENDIENTE DEL OI %\nACELERACIÓN DEL OI %\nUTC\n2. OI Z-SCORE / PERCENTIL\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−4\n−2\n0\n2\n0\n50\n100\nOI Z-SCORE\nPERCENTIL DEL OI\nUTC\n3. PRECIO × RÉGIMEN OPEN INTEREST\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\nEXPANSIÓN BAJISTA\nDESAPALANCAMIENTO LONG\nNEUTRAL\nCIERRE DE POSICIONES SHORT\nEXPANSIÓN ALCISTA\nPUNTAJE DE RÉGIMEN\nUTC\n4. PRECIO ↔ DIVERGENCIA OPEN INTEREST\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−5\n0\n5\nRENDIMIENTO DEL PRECIO Z\nCAMBIO DEL OI Z\nPUNTUACIÓN DE DIVERGENCIA\nUTC\n5. FUNDING × CROWDING OPEN INTEREST\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n−4\n−2\n0\n2\nOI Z-SCORE\nFUNDING Z\nPUNTUACIÓN DE CONCENTRACIÓN\nUTC\n6. WASSERSTEIN / CAMBIO DE RÉGIMEN\nI\n18:0031/08\n00:0001/09\n06:0001/09\n12:0001/09\n18:0001/09\n0\n0.005\n0.01\n0.015\nWASSERSTEIN\nUTC\nINDICADORES · SCREEN B\nDINÁMICA DE PARTICIPACIÓN\nOI ROC / Pendiente / Aceleración\nOI Z-Score / Percentil\nPRICE × PARTICIPACIÓN\nPrecio × Régimen OI\nPrecio ↔ Divergencia OI\nAPALANCAMIENTO / CAMBIO DE RÉGIMEN\nFunding × Crowding OI\nWasserstein / Cambio de Régimen\nOPEN INTEREST\nRESUMEN DE INDICADORES\nINDICADOR\nVALOR\nSEÑAL\nFUERZA\nDINÁMICA DE PARTICIPACIÓN\nOI ROC / PENDIENTE / ACEL.\n1.80\nALCISTA\nOI Z-SCORE / PERCENTIL\n1.44\nALCISTA\nPRICE × PARTICIPACIÓN\nPRECIO × RÉGIMEN OI\n-1.00\nBAJISTA\nPRECIO ↔ DIVERGENCIA OI\n1.04\nALCISTA\nAPALANCAMIENTO / CROWDING\nFUNDING × CROWDING OI\n1.07\nNEUTRAL\nCAMBIO DE RÉGIMEN\nWASSERSTEIN / CAMBIO DE RÉGIMEN\n0.008\nNEUTRAL\nLEYENDA DE FUERZA\nMUY FUERTE\nFUERTE\nMODERADA\nDÉBIL\nMUY DÉBIL\n\nBasado en la dirección del indicador y la fuerza relativa actual.\n\nLos valores pueden cambiar con el próximo cierre de vela.\n\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "7093565e8080234158a7cc4afa216e43e14fa9cf1b292951fee3955894bb2ff7",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "TASA DE CAMBIO DEL OI %",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "PENDIENTE DEL OI %",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "ACELERACIÓN DEL OI %",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "OI Z-SCORE",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "PERCENTIL DEL OI",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "PUNTAJE DE RÉGIMEN",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "RENDIMIENTO DEL PRECIO Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "CAMBIO DEL OI Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "PUNTUACIÓN DE DIVERGENCIA",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "OI Z-SCORE",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "FUNDING Z",
+                "points": 120
+              },
+              {
+                "type": "scatter",
+                "name": "PUNTUACIÓN DE CONCENTRACIÓN",
+                "points": 120
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "WASSERSTEIN",
+                "points": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\open_interest_and_funding_VR1_FINAL.json",
+      "sha256": "e7f849721eef406df7478d66e053dd590ce0ce4e2e5f980ef0d7242eb842cf04",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "default_market": "all_exchanges",
+        "available_markets": [
+          "all_exchanges"
+        ],
+        "default_timeframe": "15m",
+        "available_timeframes": [
+          "5m",
+          "15m",
+          "4h"
+        ],
+        "asset": "BTC",
+        "exchange_scope": "all_exchanges",
+        "primary_provider": "coinglass",
+        "confirmation_providers": [
+          "glassnode"
+        ],
+        "units": {
+          "open_interest": "USD",
+          "funding_rate": "percent_points"
+        },
+        "history_policy": {
+          "calculation": "full_available_history",
+          "presentation": "tail_window",
+          "default_display_window": 120
+        },
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788292874,
+        "generated_at": "2026-09-01T20:01:19Z",
+        "data_as_of": 1788292874,
+        "analysis_profile": "ohlc_without_volume",
+        "volume_enabled": false,
+        "regression_channel_policy": {
+          "window": 100,
+          "deviation_multiplier": 2.0,
+          "field": "close",
+          "fit": "rolling_ordinary_least_squares",
+          "width_basis": "population_standard_deviation_of_residuals"
+        },
+        "wasserstein_policy": {
+          "recent_window_returns": 20,
+          "reference_window_returns": 100,
+          "field": "close",
+          "return_type": "log_return"
+        },
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_emulator_v1",
+        "realism_note": "deterministic provider-shaped emulator data; CoinGlass OI/Funding plus Glassnode ELR",
+        "screen_b_native_oi_policy": {
+          "status": "synthetic_emulator",
+          "hmi_computes_market_indicators": false,
+          "processing_outputs_required": [
+            "oi_roc",
+            "oi_slope_pct",
+            "oi_acceleration_pct",
+            "oi_zscore",
+            "oi_percentile",
+            "price_oi_regime",
+            "price_oi_divergence",
+            "funding_oi_crowding",
+            "wasserstein_distance"
+          ],
+          "market_api_primitives": [
+            "aggregated_open_interest_ohlc",
+            "oi_weighted_funding_rate_ohlc",
+            "futures_estimated_leverage_ratio"
+          ],
+          "note": "Processing owns all OI/Funding calculations; HMI renders contracted outputs only."
+        },
+        "screen_revision": "oi_native_screen_b_v1"
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c3-open-interest-funding-screen-b.png",
+    "asset_sha256": "82c53f108cdd1084e2503af0e4b5bff3ec1b99a06c8eef5a17e7622bf29907ab"
+  },
+  {
+    "family": "C5",
+    "screen": "A",
+    "language": "es",
+    "name": "c5-on-chain-miners-screen-a.png",
+    "resolution": [
+      1880,
+      908
+    ],
+    "reference": "vr1/en/c5-on-chain-miners-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/on-chain-miners?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nON-CHAIN & MINERS METRICS\nSOURCE\nSYNTHETIC\nLIVE\nTIMEFRAME\n7D\n30D\nON-CHAIN & MINERS ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC\nAVAILABLE\nDATA AS OF\n00:00:00 de 30/08/2026\nMINER PRESSURE\ni\nLOW\nLOW_SELLING_PRESSURE\nRESERVE TREND\ni\nDECREASING\nDECREASING\nNET POSITION\ni\n-99.79\nNET_DISTRIBUTION\nSOPR REGIME\ni\nLOSS\nLOSS\nMINER RESERVE (BTC)\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n1.82M\n1.821M\n1.822M\nSOPR / ASOPR CONTEXT\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n0.97\n0.98\n0.99\n1\nSOPR = 1\nNETWORK HASHRATE\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n820\n840\nMINING DIFFICULTY\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n124\n126\n128\nMiner Net Position Change\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n−200\n0\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "f731907f841f65a8f998e68e9d849e4fa3901fd54831541baccb8378ac9f6c2d",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Miner Reserve (BTC)",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [
+              "SOPR = 1"
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "SOPR / aSOPR Context",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Network Hashrate",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Mining Difficulty",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Value",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Reserve Change BTC",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Reserve Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Reserve ROC 30D",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Mpi",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "M2E Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Selling Pressure",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Puell Multiple",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Revenue Stress Score",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Hashrate Eh S",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Ma 30",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Ma 60",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Momentum Pct",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Hashrate Change Zscore",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Difficulty Change Zscore",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Network Stress",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Regime Score",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Wasserstein",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Capitulation %",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Recovery %",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nMÉTRICAS ON-CHAIN & MINEROS\nFUENTE\nSINTÉTICO\nLIVE\nTEMPORALIDAD\n7D\n30D\nANÁLISIS ON-CHAIN Y DE MINEROS ↗\n↻ RECARGAR\nSINTÉTICO\nDISPONIBLE\nDATOS AL\n00:00:00 de 30/08/2026\nPRESIÓN DE MINEROS\ni\nBAJO\nBAJA_PRESIÓN_DE_VENTA\nTENDENCIA DE RESERVAS\ni\nDECRECIENTE\nDECRECIENTE\nPOSICIÓN NETA\ni\n-99.79\nDISTRIBUCIÓN_NETA\nRÉGIMEN SOPR\ni\nP?RDIDA\nP?RDIDA\nRESERVA DE MINEROS (BTC)\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n1.82M\n1.821M\n1.822M\nCONTEXTO SOPR / ASOPR\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n0.97\n0.98\n0.99\n1\nSOPR = 1\nHASHRATE DE RED\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n820\n840\nDIFICULTAD DE MINADO\ni\nAug 022026\nAug 092026\nAug 162026\nAug 232026\n124\n126\n128\nCambio Neto de Posición de Mineros\ni\nAug 22026\nAug 9\nAug 16\nAug 23\nAug 30\n−200\n0\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "f731907f841f65a8f998e68e9d849e4fa3901fd54831541baccb8378ac9f6c2d",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Miner Reserve (BTC)",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [
+              "SOPR = 1"
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "SOPR / aSOPR Context",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Network Hashrate",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Mining Difficulty",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Valor",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "bar",
+                "name": "Reserve Change BTC",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Reserve Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Reserve ROC 30D",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Mpi",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "M2E Z",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Selling Pressure",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Puell Multiple",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Revenue Stress Score",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Hashrate Eh S",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Ma 30",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Ma 60",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Hash Momentum Pct",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Hashrate Change Zscore",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Difficulty Change Zscore",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Network Stress",
+                "points": 30
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "Regime Score",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Wasserstein",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Capitulación %",
+                "points": 30
+              },
+              {
+                "type": "scatter",
+                "name": "Recuperación %",
+                "points": 30
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\on_chain_miners_VR1_FINAL.json",
+      "sha256": "90b1399c08583bb64709be5d213ffbceea63dde6878f9f23e12848920bb2b58a",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "asset": "BTC",
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "reference_timestamp": 1788132583,
+        "execution_timestamp": 1788132588,
+        "generated_at": "2026-08-30T23:29:48Z",
+        "processing_data_as_of": 1788048000,
+        "classification_data_as_of": 1788048000,
+        "data_as_of": 1788048000,
+        "calculation_history": "full_available_history",
+        "presentation_default_range": "30D",
+        "calculation_history_days": 494,
+        "fixture_seed": null,
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_emulator_v1",
+        "realism_note": "Glassnode-primary miner/on-chain runtime acquired at 24h resolution; Processing publishes daily presentation series.",
+        "analysis_profile": "native_onchain_miner_fundamentals",
+        "hmi_computes_market_indicators": false,
+        "screen_a_representation_policy": {
+          "miner_reserve": "line_area",
+          "sopr_7d": "line_with_reference_1",
+          "hashrate": "line",
+          "difficulty": "step_line"
+        },
+        "screen_b_policy": "native_miner_analytics_only",
+        "native_miner_source_note": null
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c5-on-chain-miners-screen-a.png",
+    "asset_sha256": "10516319be42fb55bda5360b8eb21f4687cfa41a7de641f82201ae10a55a3ba4"
+  },
+  {
+    "family": "C8",
+    "screen": "A",
+    "language": "es",
+    "name": "c8-liquidity-microstructure-screen-a.png",
+    "resolution": [
+      1878,
+      906
+    ],
+    "reference": "vr1/en/c8-liquidity-microstructure-screen-a.png",
+    "runtime_url": "http://127.0.0.1:18768/liquidity?lang=es",
+    "runtime": "Screen app/screens exported from a806c8302c5fdca52942e638a806e55ba039b5db; current Screen i18n; locale-only shell callbacks; unchanged existing current fixtures",
+    "languages": {
+      "en": {
+        "body": "T\nTradELATINVR1\nPrices\n↗\nCVD\n↗\nOpen Interest\n↗\nETF Flows\n↗\nOn-Chain Miners\n↗\nVolatility\n↗\nLiquidations\n↗\nLiquidity\n↗\nGrok Radar\n↗\nLANGUAGE\nEN\nES\nSYNTHETIC\nTRAD ELATIN TRADING TOOL\nLIQUIDITY MICROSTRUCTURE\nSOURCE\nSYNTHETIC\nLIVE\nMARKET\nSPOT\nPERPETUAL\nLIQUIDITY ANALYSIS ↗\n↻ RELOAD\nSYNTHETIC\nSYNTHETIC\nOK\nDATA AS OF\n15:20:39 de 01/09/2026\nBID DEPTH\ni\n17.11 BTC\nAVAILABLE\nASK DEPTH\ni\n26.03 BTC\nAVAILABLE\nSPREAD\ni\n6.02 bps\nAVAILABLE\nLIQUIDITY IMBALANCE\ni\n-20.67%\nAVAILABLE\nMID PRICE\ni\n$100,003.18\nAVAILABLE\nIMPACT 1 BTC\ni\n5.02 bps\nAVAILABLE\n1. ORDER BOOK\ni\nAccumulated order-book depth\nMid Price\n100,003\nUSD\nORDER DEPTH\n−0.6%\n−0.4%\n−0.2%\n0%\n0.2%\n0.4%\n0.6%\n0\n5\n10\n15\n20\n25\nBIDS (Acumulado)\nASKS (Acumulado)\nBTC (Cumulative)\n2. WHALE ORDERS\ni\nLarge resting orders and associated liquidity\nMid Price\n100,003\nUSD\nWHALE LIQUIDITY PROFILE\n−0.05%\n0%\n0.05%\n0\n50\n100\n150\n200\nBUY CONCENTRATION\nSELL CONCENTRATION\nBTC (Cumulative)\n3. LARGE TRADES\ni\nLarge executed trades and consumed liquidity\nMid Price\n100,003\nUSD\nEXECUTED LIQUIDITY PROFILE\n−1%\n−0.5%\n0%\n0.5%\n1%\n0\n5k\n10k\n15k\n20k\nBUY EXECUTED\nSELL EXECUTED\nBTC (Cumulative)\nORDER BOOK SNAPSHOT\ni\nBIDS\nPrice (USDT)\tSize (BTC)\tCumulative (BTC)\n99,973.1\t0.48\t0.48\n99,936.5\t0.46\t0.94\n99,917.6\t0.43\t1.37\n99,876.2\t1.68\t3.06\n99,868.7\t0.60\t3.66\n99,822.4\t0.58\t4.23\n99,775.1\t0.53\t4.76\n99,769.7\t0.55\t5.31\n99,734.2\t0.69\t6.01\n99,717.5\t2.93\t8.94\n99,671.8\t0.67\t9.61\n99,632.5\t0.83\t10.44\n99,602.9\t0.65\t11.09\n99,599.7\t0.79\t11.88\n99,558.8\t0.81\t12.69\nASKS\nPrice (USDT)\tSize (BTC)\tCumulative (BTC)\n100,033.3\t0.73\t0.73\n100,069.9\t0.70\t1.43\n100,088.7\t0.66\t2.09\n100,130.1\t2.56\t4.65\n100,137.6\t0.91\t5.56\n100,183.9\t0.88\t6.44\n100,231.2\t0.80\t7.24\n100,236.6\t0.84\t8.08\n100,272.1\t1.05\t9.14\n100,288.8\t4.46\t13.60\n100,334.5\t1.02\t14.62\n100,373.8\t1.27\t15.88\n100,403.4\t0.98\t16.87\n100,406.6\t1.20\t18.06\n100,447.5\t1.23\t19.30\nTotal Bids\n17.11 BTC\nTotal Asks\n26.03 BTC\nWHALE ORDERS\ni\n15 / 15 visible\nAge\tSide\tPrice (USDT)\tSize (BTC)\tNotional (USD)\tDistance\n0s\tSELL\t100,039.4\t16.54\t$1.65M\t+0.04%\n0s\tSELL\t100,026.1\t16.54\t$1.65M\t+0.02%\n0s\tSELL\t100,036.8\t16.13\t$1.61M\t+0.03%\n0s\tSELL\t100,060.0\t15.50\t$1.55M\t+0.06%\n0s\tSELL\t100,056.3\t15.92\t$1.59M\t+0.05%\n0s\tSELL\t100,055.8\t16.54\t$1.65M\t+0.05%\n0s\tSELL\t100,048.4\t15.92\t$1.59M\t+0.05%\n0s\tBUY\t100,003.2\t15.10\t$1.51M\t-0.00%\n0s\tSELL\t100,034.5\t15.92\t$1.59M\t+0.03%\n0s\tSELL\t100,040.4\t15.51\t$1.55M\t+0.04%\n0s\tSELL\t100,067.5\t16.53\t$1.65M\t+0.06%\n0s\tSELL\t100,082.9\t15.29\t$1.53M\t+0.08%\n0s\tSELL\t100,037.8\t15.92\t$1.59M\t+0.03%\n0s\tBUY\t99,927.6\t15.73\t$1.57M\t-0.08%\n0s\tSELL\t100,041.4\t15.30\t$1.53M\t+0.04%\nBuy Total\n176.48 BTC\nSell Total\n170.65 BTC\nLARGE TRADES\ni\n15 / 15 visible\nTime\tSide\tPrice (USDT)\tSize (BTC)\tNotional (USD)\tDistance\n15:20:00\tSELL\t99,996.3\t13.36\t$1.34M\t—\n15:20:00\tSELL\t100,021.3\t16.70\t$1.67M\t—\n15:20:00\tSELL\t100,071.3\t10.01\t$1.00M\t—\n15:20:00\tBUY\t100,046.3\t19.57\t$1.96M\t—\n15:20:00\tSELL\t99,971.3\t10.02\t$1.00M\t—\n15:20:00\tBUY\t100,021.3\t24.47\t$2.45M\t—\n15:20:00\tBUY\t100,071.3\t14.68\t$1.47M\t—\n15:20:00\tSELL\t100,046.3\t13.36\t$1.34M\t—\n15:20:00\tBUY\t99,996.3\t19.58\t$1.96M\t—\n15:20:00\tBUY\t99,971.3\t14.69\t$1.47M\t—\n15:12:00\tSELL\t99,965.7\t13.41\t$1.34M\t—\n15:12:00\tSELL\t100,040.7\t17.87\t$1.79M\t—\n15:12:00\tBUY\t100,065.7\t28.23\t$2.82M\t—\n15:12:00\tSELL\t99,990.7\t17.88\t$1.79M\t—\n15:12:00\tBUY\t100,015.7\t47.07\t$4.71M\t—\nBuy Total\n$14.60M\nSell Total\n$11.13M\n4. NEAREST LIQUIDITY ZONES\ni\nStrongest nearby bid and ask liquidity from the visible book and persistent whale orders\n99,995\n100,000\n100,005\n100,010\n100,015\n100,020\nPRICE (USDT)\nBUY LIQUIDITY$99,999.83 · $12.87M · -0.003%\nSELL LIQUIDITY$100,012.71 · $13.80M · +0.010%\nMID $100,003.18\nDATA SOURCE STATUS\nJSON contracts loaded from data/contracts\nHMI computes no market indicators\nTradELATIN VR1 · Screen Deployment",
+        "numeric_graph_sha256": "70312845f14c0fafd6748fc6c71f2a89362afb08d91c4d24caaa6647830109e5",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BIDS (Acumulado)",
+                "points": 20
+              },
+              {
+                "type": "scatter",
+                "name": "ASKS (Acumulado)",
+                "points": 20
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BUY CONCENTRATION",
+                "points": 2
+              },
+              {
+                "type": "scatter",
+                "name": "SELL CONCENTRATION",
+                "points": 13
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BUY EXECUTED",
+                "points": 910
+              },
+              {
+                "type": "scatter",
+                "name": "SELL EXECUTED",
+                "points": 910
+              }
+            ]
+          },
+          {
+            "titles": [
+              "<b>BUY LIQUIDITY</b><br>$99,999.83 · $12.87M · -0.003%",
+              "<b>SELL LIQUIDITY</b><br>$100,012.71 · $13.80M · +0.010%",
+              "MID $100,003.18"
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": null,
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      "es": {
+        "body": "T\nTradELATINVR1\nPrecios\n↗\nCVD\n↗\nOpen Interest\n↗\nFlujos ETF\n↗\nOn-Chain y Mineros\n↗\nVolatilidad\n↗\nLiquidaciones\n↗\nLiquidez\n↗\nGrok Radar\n↗\nIDIOMA\nEN\nES\nSINTÉTICO\nTRAD ELATIN · HERRAMIENTA DE TRADING\nMICROESTRUCTURA DE LIQUIDEZ\nFUENTE\nSINTÉTICO\nLIVE\nMERCADO\nSPOT\nPERPETUAL\nANÁLISIS DE LIQUIDEZ ↗\n↻ RECARGAR\nSINTÉTICO\nSINTÉTICO\nOK\nDATOS AL\n15:20:39 de 01/09/2026\nPROFUNDIDAD BID\ni\n17.11 BTC\nDISPONIBLE\nPROFUNDIDAD ASK\ni\n26.03 BTC\nDISPONIBLE\nSPREAD\ni\n6.02 bps\nDISPONIBLE\nDESEQUILIBRIO DE LIQUIDEZ\ni\n-20.67%\nDISPONIBLE\nPRECIO MEDIO\ni\n$100,003.18\nDISPONIBLE\nIMPACTO 1 BTC\ni\n5.02 bps\nDISPONIBLE\n1. LIBRO DE ÓRDENES\ni\nProfundidad acumulada del libro\nPrecio Medio\n100,003\nUSD\nPROFUNDIDAD DEL LIBRO\n−0.6%\n−0.4%\n−0.2%\n0%\n0.2%\n0.4%\n0.6%\n0\n5\n10\n15\n20\n25\nBIDS (Acumulado)\nASKS (Acumulado)\nBTC (Acumulado)\n2. ÓRDENES BALLENA\ni\nÓrdenes grandes en reposo y liquidez asociada\nPrecio Medio\n100,003\nUSD\nPERFIL DE LIQUIDEZ BALLENA\n−0.05%\n0%\n0.05%\n0\n50\n100\n150\n200\nCONCENTRACIÓN DE COMPRA\nCONCENTRACIÓN DE VENTA\nBTC (Acumulado)\n3. OPERACIONES GRANDES\ni\nOperaciones grandes ejecutadas y liquidez consumida\nPrecio Medio\n100,003\nUSD\nPERFIL DE LIQUIDEZ EJECUTADA\n−1%\n−0.5%\n0%\n0.5%\n1%\n0\n5k\n10k\n15k\n20k\nCOMPRA EJECUTADA\nVENTA EJECUTADA\nBTC (Acumulado)\nSNAPSHOT DEL LIBRO DE ÓRDENES\ni\nBIDS / COMPRAS\nPrecio (USDT)\tTamaño (BTC)\tAcumulado (BTC)\n99,973.1\t0.48\t0.48\n99,936.5\t0.46\t0.94\n99,917.6\t0.43\t1.37\n99,876.2\t1.68\t3.06\n99,868.7\t0.60\t3.66\n99,822.4\t0.58\t4.23\n99,775.1\t0.53\t4.76\n99,769.7\t0.55\t5.31\n99,734.2\t0.69\t6.01\n99,717.5\t2.93\t8.94\n99,671.8\t0.67\t9.61\n99,632.5\t0.83\t10.44\n99,602.9\t0.65\t11.09\n99,599.7\t0.79\t11.88\n99,558.8\t0.81\t12.69\nASKS / VENTAS\nPrecio (USDT)\tTamaño (BTC)\tAcumulado (BTC)\n100,033.3\t0.73\t0.73\n100,069.9\t0.70\t1.43\n100,088.7\t0.66\t2.09\n100,130.1\t2.56\t4.65\n100,137.6\t0.91\t5.56\n100,183.9\t0.88\t6.44\n100,231.2\t0.80\t7.24\n100,236.6\t0.84\t8.08\n100,272.1\t1.05\t9.14\n100,288.8\t4.46\t13.60\n100,334.5\t1.02\t14.62\n100,373.8\t1.27\t15.88\n100,403.4\t0.98\t16.87\n100,406.6\t1.20\t18.06\n100,447.5\t1.23\t19.30\nTotal Bid\n17.11 BTC\nTotal Ask\n26.03 BTC\nÓRDENES BALLENA\ni\n15 / 15 visibles\nAntig?edad\tLado\tPrecio (USDT)\tTamaño (BTC)\tNocional (USD)\tDistancia\n0s\tVENTA\t100,039.4\t16.54\t$1.65M\t+0.04%\n0s\tVENTA\t100,026.1\t16.54\t$1.65M\t+0.02%\n0s\tVENTA\t100,036.8\t16.13\t$1.61M\t+0.03%\n0s\tVENTA\t100,060.0\t15.50\t$1.55M\t+0.06%\n0s\tVENTA\t100,056.3\t15.92\t$1.59M\t+0.05%\n0s\tVENTA\t100,055.8\t16.54\t$1.65M\t+0.05%\n0s\tVENTA\t100,048.4\t15.92\t$1.59M\t+0.05%\n0s\tCOMPRA\t100,003.2\t15.10\t$1.51M\t-0.00%\n0s\tVENTA\t100,034.5\t15.92\t$1.59M\t+0.03%\n0s\tVENTA\t100,040.4\t15.51\t$1.55M\t+0.04%\n0s\tVENTA\t100,067.5\t16.53\t$1.65M\t+0.06%\n0s\tVENTA\t100,082.9\t15.29\t$1.53M\t+0.08%\n0s\tVENTA\t100,037.8\t15.92\t$1.59M\t+0.03%\n0s\tCOMPRA\t99,927.6\t15.73\t$1.57M\t-0.08%\n0s\tVENTA\t100,041.4\t15.30\t$1.53M\t+0.04%\nTotal comprador\n176.48 BTC\nTotal vendedor\n170.65 BTC\nOPERACIONES GRANDES\ni\n15 / 15 visibles\nHora\tLado\tPrecio (USDT)\tTamaño (BTC)\tNocional (USD)\tDistancia\n15:20:00\tVENTA\t99,996.3\t13.36\t$1.34M\t—\n15:20:00\tVENTA\t100,021.3\t16.70\t$1.67M\t—\n15:20:00\tVENTA\t100,071.3\t10.01\t$1.00M\t—\n15:20:00\tCOMPRA\t100,046.3\t19.57\t$1.96M\t—\n15:20:00\tVENTA\t99,971.3\t10.02\t$1.00M\t—\n15:20:00\tCOMPRA\t100,021.3\t24.47\t$2.45M\t—\n15:20:00\tCOMPRA\t100,071.3\t14.68\t$1.47M\t—\n15:20:00\tVENTA\t100,046.3\t13.36\t$1.34M\t—\n15:20:00\tCOMPRA\t99,996.3\t19.58\t$1.96M\t—\n15:20:00\tCOMPRA\t99,971.3\t14.69\t$1.47M\t—\n15:12:00\tVENTA\t99,965.7\t13.41\t$1.34M\t—\n15:12:00\tVENTA\t100,040.7\t17.87\t$1.79M\t—\n15:12:00\tCOMPRA\t100,065.7\t28.23\t$2.82M\t—\n15:12:00\tVENTA\t99,990.7\t17.88\t$1.79M\t—\n15:12:00\tCOMPRA\t100,015.7\t47.07\t$4.71M\t—\nTotal comprador\n$14.60M\nTotal vendedor\n$11.13M\n4. NEAREST LIQUIDITY ZONES\ni\nMayor liquidez bid y ask cercana del libro visible y de las órdenes persistentes de ballenas\n99,995\n100,000\n100,005\n100,010\n100,015\n100,020\nPRICE (USDT)\nBUY LIQUIDITY$99,999.83 · $12.87M · -0.003%\nSELL LIQUIDITY$100,012.71 · $13.80M · +0.010%\nMID $100,003.18\nESTADO DE FUENTES DE DATOS\nContratos JSON cargados desde data/contracts\nLa HMI no calcula indicadores de mercado\nTradELATIN VR1 · Despliegue HMI",
+        "numeric_graph_sha256": "70312845f14c0fafd6748fc6c71f2a89362afb08d91c4d24caaa6647830109e5",
+        "http_status": 200,
+        "graph_summary": [
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "BIDS (Acumulado)",
+                "points": 20
+              },
+              {
+                "type": "scatter",
+                "name": "ASKS (Acumulado)",
+                "points": 20
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "CONCENTRACIÓN DE COMPRA",
+                "points": 2
+              },
+              {
+                "type": "scatter",
+                "name": "CONCENTRACIÓN DE VENTA",
+                "points": 13
+              }
+            ]
+          },
+          {
+            "titles": [],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": "COMPRA EJECUTADA",
+                "points": 910
+              },
+              {
+                "type": "scatter",
+                "name": "VENTA EJECUTADA",
+                "points": 910
+              }
+            ]
+          },
+          {
+            "titles": [
+              "<b>BUY LIQUIDITY</b><br>$99,999.83 · $12.87M · -0.003%",
+              "<b>SELL LIQUIDITY</b><br>$100,012.71 · $13.80M · +0.010%",
+              "MID $100,003.18"
+            ],
+            "traces": [
+              {
+                "type": "scatter",
+                "name": null,
+                "points": 2
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "js_errors": [],
+    "paired_runtime_data_equal": true,
+    "dataset": {
+      "file": "C:\\Users\\Ottmar\\Desktop\\Market BTC Analysis\\TradElatin-WebPage\\.tmp\\hmi-reference-replay\\data\\contracts\\liquidity_microstructure_VR1_FINAL.json",
+      "sha256": "9b774368401dbb515b7f2de353d2910505e8d91bc43403d77e0830d821e548b6",
+      "timestamp": null,
+      "source_mode": null,
+      "status": null,
+      "asset": null,
+      "context": {
+        "asset": "BTC",
+        "base_asset": "BTC",
+        "quote_asset": "USDT",
+        "spot_symbol": "BTCUSDT",
+        "perpetual_symbol": "BTCUSDT",
+        "selected_symbol": "BTCUSDT",
+        "selected_market": "perpetual",
+        "selected_timeframe": "1m",
+        "provider": {
+          "id": "coinglass",
+          "label": "CoinGlass"
+        },
+        "exchange": "Binance",
+        "reference_timestamp": 1788276030,
+        "processing_execution_timestamp": 1788276039,
+        "classification_execution_timestamp": 1788276039,
+        "data_as_of": 1788276039,
+        "data_mode": "synthetic",
+        "is_demo": true,
+        "generated_at": "2026-09-01T15:20:39Z",
+        "updated_at": "2026-09-01T15:20:30Z",
+        "connection_status": "not_reported",
+        "cache_status": "not_reported",
+        "latency_ms": null,
+        "refresh_interval_seconds": 5.0,
+        "cache_ttl_seconds": null,
+        "display_depth_basis": "base_quantity",
+        "reference_depth_range_percent": 10,
+        "market_impact_quantity_base": 1.0,
+        "calibration_status": "provisional_coinglass_only",
+        "calculation_history": "upstream_preserved",
+        "presentation_policy": "select_filter_truncate_without_recalculation",
+        "units": {
+          "depth": "BTC",
+          "spread": "bps",
+          "impact": "bps"
+        },
+        "limitations": [
+          "coinglass_only",
+          "no_glassnode",
+          "no_cryptoquant",
+          "range_10_is_not_full_book",
+          "observed_conditions_not_global_absolute_liquidity",
+          "provider_is_coinglass_exchange_is_binance",
+          "whale_orders_from_large_limit_order_endpoint",
+          "executed_liquidity_is_footprint_price_bin_aggregation_not_individual_trade_tape"
+        ],
+        "fixture_as_of_timestamp": null,
+        "fixture_as_of_iso": null,
+        "synthetic_fixture": false,
+        "realism_refactor_version": "runtime_v1_2",
+        "realism_note": "CoinGlass orderbook + large-limit-order + footprint runtime vertical; no HMI reconstruction.",
+        "liquidity_screen_b_policy": {
+          "status": "synthetic_emulator",
+          "processing_contract_target": true,
+          "real_market_calculation": false,
+          "hmi_recalculate": false,
+          "screen_b_native_metrics": [
+            "depth_imbalance_pressure",
+            "spread_market_impact_stress",
+            "liquidity_wall_concentration_vacuum",
+            "whale_persistence_cancellation",
+            "executed_liquidity_absorption",
+            "liquidity_regime_hmi_wasserstein"
+          ],
+          "note": "All Screen B values are precomputed contract fields; HMI only renders them."
+        },
+        "available_markets": [
+          "spot",
+          "perpetual"
+        ],
+        "market_view_policy": "independent_precomputed_spot_and_perpetual_states"
+      },
+      "observations": 0
+    },
+    "target_language_ui_audit": {
+      "pass": true,
+      "forbidden_ui_patterns": [
+        "\\bRELOAD\\b",
+        "\\bBACK\\b",
+        "INDICATOR SUMMARY",
+        "STRENGTH LEGEND",
+        "No observations available",
+        "UPSTREAM NOT CONFIGURED",
+        "Isolated presentation panel",
+        "Status: ",
+        "\\bSOURCE\\b",
+        "CURRENT PRICE",
+        "PRICE TECHNICAL ANALYSIS",
+        "BUY EXECUTED",
+        "SELL EXECUTED",
+        "\\bAge\\b",
+        "\\bLOSS\\b"
+      ]
+    },
+    "asset": "vr1/es/c8-liquidity-microstructure-screen-a.png",
+    "asset_sha256": "9189f8aa56ea23cc178f6ce054951c1a4a9927fd83d5316a1a6ef903ad4c02de"
+  }
+]
